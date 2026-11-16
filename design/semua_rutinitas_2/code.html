@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+
+<html class="h-full dark" lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        colors: {
+          "surface": "#121318",
+          "surface-container-lowest": "#0d0e13",
+          "surface-container-low": "#1a1b20",
+          "surface-container": "#1e1f25",
+          "surface-container-high": "#292a2f",
+          "surface-container-highest": "#34343a",
+          "surface-bright": "#38393e",
+          "surface-dim": "#121318",
+          "background": "#121318",
+          "on-background": "#e3e1e9",
+          "on-surface": "#f1f2fc",
+          "on-surface-variant": "#a2a4b8",
+          "outline": "#63667c",
+          "outline-variant": "#2e313f",
+          "primary": "#c9d1ff",
+          "primary-container": "#6366f1",
+          "on-primary": "#1a2b6a",
+          "on-primary-container": "#e0e7ff",
+          "secondary": "#ffc640",
+          "secondary-container": "#e3aa00",
+          "on-secondary": "#402d00",
+          "tertiary": "#56edb0",
+          "tertiary-container": "#115e59",
+          "on-tertiary-container": "#a7f3d0",
+          "error": "#ffb4ab",
+          "error-container": "#451217",
+          "on-error-container": "#ffdad6"
+        },
+        borderRadius: {
+          "DEFAULT": "0.25rem",
+          "lg": "0.5rem",
+          "xl": "0.75rem",
+          "full": "9999px"
+        },
+        spacing: {
+          "margin": "1rem",
+          "space-xs": "0.25rem",
+          "space-sm": "0.5rem",
+          "space-md": "1rem",
+          "space-lg": "1.5rem",
+          "space-xl": "2rem"
+        },
+        fontFamily: {
+          "body-sm": ["Plus Jakarta Sans"],
+          "body-md": ["Plus Jakarta Sans"],
+          "body-lg": ["Plus Jakarta Sans"],
+          "title-sm": ["Plus Jakarta Sans"],
+          "title-md": ["Plus Jakarta Sans"],
+          "title-lg": ["Plus Jakarta Sans"],
+          "headline-md-mobile": ["Plus Jakarta Sans"],
+          "label-sm": ["Space Grotesk"],
+          "label-md": ["Space Grotesk"],
+          "label-lg": ["Space Grotesk"]
+        },
+        fontSize: {
+          "label-sm": ["11px", { "lineHeight": "14px", "fontWeight": "600" }],
+          "label-md": ["13px", { "lineHeight": "18px", "fontWeight": "600" }],
+          "label-lg": ["14px", { "lineHeight": "20px", "fontWeight": "600" }],
+          "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }],
+          "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }],
+          "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+          "title-sm": ["15px", { "lineHeight": "22px", "fontWeight": "600" }],
+          "title-md": ["17px", { "lineHeight": "24px", "fontWeight": "600" }],
+          "title-lg": ["20px", { "lineHeight": "26px", "fontWeight": "600" }],
+          "headline-md-mobile": ["26px", { "lineHeight": "32px", "fontWeight": "700" }]
+        }
+      }
+    }
+  }</script><style>@layer base { html, body { width: 100%; margin: 0; padding: 0; min-height: 100%; background-color: #121318; color: #f1f2fc; } body { overscroll-behavior-y: none; } .pb-safe { padding-bottom: env(safe-area-inset-bottom, 0px); } .pt-safe { padding-top: env(safe-area-inset-top, 0px); } } ::-webkit-scrollbar { display: none; }
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style></head><body class="bg-[#121318] font-body-md text-body-md text-[#f1f2fc] antialiased flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 bg-[#121318]/90 backdrop-blur-xl border-b border-[#2e313f]/40 pt-safe"><div class="flex flex-col h-24 justify-between"><div class="h-6 px-margin flex items-center justify-between text-[#a2a4b8] font-label-sm text-label-sm select-none"><span class="font-medium tracking-tight text-[#f1f2fc]">09:41</span><div class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[16px]">wifi</span><span class="material-symbols-outlined text-[16px]">signal_cellular_alt</span><span class="material-symbols-outlined text-[18px]">battery_full</span></div></div><div class="h-18 px-margin pb-1 flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0 flex-1"><img alt="Rutina App Icon" class="h-8 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida/ALJJyrBIcMSM8L58JyZcW2-lraDQWJe3lVrV-gfYEJVwfaoJK5nAAgICSholCOQJWs66VdwgOCL1QUNzE1p3fS0vKzpvXzziCsYTit3za9oSYqlrSChUFgVgZv3xhS5Ny-AhWTjSJ9pM4Zj_kQ3Ft8c3avsgVyN-Oszfzl8saisEEIKt8ascG7AUvp7ZaTnlrhZJ8uqyJ15VjD2P_kfu1-Yojr9UsBysjTktgrY_-p-RZEs"/><div class="flex flex-col min-w-0"><span class="font-label-sm text-label-sm text-[#818cf8] font-bold uppercase tracking-wider leading-none">Rutina</span><h1 class="font-title-lg text-title-lg text-[#f1f2fc] truncate leading-tight">Semua Tugas</h1></div></div><div class="flex items-center gap-space-xs flex-shrink-0"><button aria-label="Cari tugas" class="w-11 h-11 flex items-center justify-center rounded-full text-[#a2a4b8] hover:text-[#f1f2fc] hover:bg-[#232530] transition-colors"><span class="material-symbols-outlined text-[24px]">search</span></button><button aria-label="Profil pengguna" class="w-11 h-11 flex items-center justify-center rounded-full hover:bg-[#232530] transition-colors"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-1 ring-[#2e313f]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9F70oloTGQzbtx617wv7kHrMGw7IC_d8R7E3BJ_1qQuCS5f8SHxR30sLeDo_oNbr3Ou-Uv75DQzX1zrI3d1iotm2SEH28JRMUqBrvLEl0WJe_pzlNyW0VcYVnRyhLksktX7vEyZijVQLKwa2oL8EZRNhIguBa_eSZY3ao7bwID0WQdnhDdTbVz6nLhXLilT0uHZgbn-TupsrOByACegp6eb4C5piuHJeuEJPTaw"/></button></div></div></div></header><main class="flex flex-col relative w-full pt-24 pb-28 bg-[#121318] px-margin min-h-screen"><div class="flex flex-col w-full gap-space-lg pb-10">
+<!-- Search & Quick Filter Field -->
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-sm px-space-md py-space-xs bg-[#1f212a] border border-[#353846] rounded-full shadow-inner">
+<span class="material-symbols-outlined text-[#8a8d9f] text-[22px]">search</span>
+<input class="w-full bg-transparent text-[#f1f2fc] placeholder:text-[#63667c] font-body-md text-body-md focus:outline-none" id="taskSearch" placeholder="Cari tugas atau rutinitas..." type="search"/>
+<button aria-label="Hapus pencarian" class="text-[#8a8d9f] hover:text-[#f1f2fc] hidden" id="clearSearchBtn">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+<span class="material-symbols-outlined text-[#8a8d9f] text-[20px]">tune</span>
+</div>
+<!-- Scrollable Filter Chips -->
+<div class="flex items-center gap-space-xs overflow-x-auto pb-1 no-scrollbar -mx-margin px-margin">
+<button class="chip-filter active flex-shrink-0 flex items-center gap-1.5 px-space-md py-1.5 rounded-full bg-[#4338ca] text-[#e0e7ff] font-label-md text-label-md shadow-sm border border-[#6366f1]/40 transition-all">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">check</span>
+        Semua (12)
+      </button>
+<button class="chip-filter flex-shrink-0 flex items-center gap-1.5 px-space-md py-1.5 rounded-full bg-[#262833] border border-[#2e313f] text-[#a2a4b8] font-label-md text-label-md hover:bg-[#2d303e] hover:text-[#f1f2fc] transition-all">
+<span class="material-symbols-outlined text-[16px]">sync</span>
+        Rutinitas Berulang (8)
+      </button>
+<button class="chip-filter flex-shrink-0 flex items-center gap-1.5 px-space-md py-1.5 rounded-full bg-[#262833] border border-[#2e313f] text-[#a2a4b8] font-label-md text-label-md hover:bg-[#2d303e] hover:text-[#f1f2fc] transition-all">
+<span class="material-symbols-outlined text-[16px]">task_alt</span>
+        Tugas Sekali (4)
+      </button>
+<button class="chip-filter flex-shrink-0 flex items-center gap-1.5 px-space-md py-1.5 rounded-full bg-[#262833] border border-[#2e313f] text-[#a2a4b8] font-label-md text-label-md hover:bg-[#2d303e] hover:text-[#f1f2fc] transition-all">
+<span class="material-symbols-outlined text-[16px]">inventory_2</span>
+        Diarsipkan (2)
+      </button>
+</div>
+</div>
+<!-- Summary Stats Bento Card (Dark indigo gradient card #2e2a72 to #1e1b4b, progress ring in vibrant neon violet #818cf8) -->
+<div class="relative overflow-hidden bg-gradient-to-br from-[#2e2a72] to-[#1e1b4b] border border-[#4338ca]/40 text-[#f1f2fc] rounded-2xl p-space-md shadow-lg">
+<div class="absolute -right-4 -bottom-6 w-36 h-36 rounded-full bg-[#6366f1]/10 blur-xl pointer-events-none"></div>
+<div class="flex items-center justify-between gap-space-md relative z-10">
+<div class="flex flex-col gap-1 min-w-0">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-[#c7d2fe]">Ringkasan Master</span>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-md-mobile text-headline-md-mobile text-white font-bold">12</span>
+<span class="font-title-sm text-title-sm text-[#e0e7ff]">Tugas Aktif</span>
+</div>
+<p class="font-body-sm text-body-sm text-[#c7d2fe]/90 truncate">84 Kejadian Terselesaikan bulan ini</p>
+</div>
+<!-- Tactile Mini Progress Ring Graphic with neon violet #818cf8 -->
+<div class="relative w-16 h-16 flex items-center justify-center flex-shrink-0">
+<svg class="w-16 h-16 transform -rotate-90" viewbox="0 0 36 36">
+<path class="text-white/10" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="3.5"></path>
+<path class="text-[#818cf8]" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="84, 100" stroke-linecap="round" stroke-width="3.5"></path>
+</svg>
+<span class="absolute font-label-md text-label-md text-white font-bold drop-shadow">84%</span>
+</div>
+</div>
+</div>
+<!-- Section Header -->
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-2">
+<h2 class="font-title-md text-title-md text-[#f1f2fc] font-bold">Daftar Definisi Master</h2>
+<span class="px-2 py-0.5 rounded-full bg-[#1c1d26] border border-[#2e313f] font-label-sm text-label-sm text-[#a2a4b8] font-semibold">5 Tampil</span>
+</div>
+<button class="font-label-md text-label-md text-[#818cf8] flex items-center gap-0.5 hover:underline">
+      Urutan
+      <span class="material-symbols-outlined text-[16px]">swap_vert</span>
+</button>
+</div>
+<!-- Master Routine Cards List (#1c1d26 / #232530 with soft borders #2e313f) -->
+<div class="flex flex-col gap-space-sm" id="cardsContainer">
+<!-- Card 1: Olahraga Pagi & Stretching -->
+<div class="task-item bg-[#1c1d26] border border-[#2e313f] rounded-xl p-space-md shadow-sm transition-all hover:bg-[#232530]">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded-lg bg-[#272938] border border-[#3b3e52] flex items-center justify-center text-[#818cf8] flex-shrink-0">
+<span class="material-symbols-outlined text-[22px]">fitness_center</span>
+</div>
+<div class="flex flex-col min-w-0">
+<h3 class="font-title-sm text-title-sm text-[#f1f2fc] truncate font-semibold">Olahraga Pagi &amp; Stretching</h3>
+<span class="font-body-sm text-body-sm text-[#a2a4b8] truncate">42x selesai • Aktif sejak 1 Okt 2026</span>
+</div>
+</div>
+<div class="relative flex-shrink-0">
+<button aria-label="Opsi lainnya" class="w-8 h-8 flex items-center justify-center rounded-full text-[#a2a4b8] hover:text-[#f1f2fc] hover:bg-[#292a2f] transition-colors" onclick="toggleMenu('menu-1')">
+<span class="material-symbols-outlined text-[20px]">more_vert</span>
+</button>
+<!-- Options Popover Menu -->
+<div class="hidden absolute right-0 top-9 w-40 bg-[#1e1f25] border border-[#2e313f] rounded-xl shadow-2xl p-1.5 z-30 flex flex-col gap-0.5" id="menu-1">
+<button class="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-[#292a2f] text-[#f1f2fc] font-label-md text-label-md text-left w-full">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+              Edit Definisi
+            </button>
+<button class="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-[#292a2f] text-[#f1f2fc] font-label-md text-label-md text-left w-full">
+<span class="material-symbols-outlined text-[18px]">archive</span>
+              Arsipkan
+            </button>
+<button class="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-[#451217] text-[#ffb4ab] font-label-md text-label-md text-left w-full">
+<span class="material-symbols-outlined text-[18px]">delete</span>
+              Hapus
+            </button>
+</div>
+</div>
+</div>
+<!-- Schedule rule badge -->
+<div class="mt-3 flex items-center flex-wrap gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-[#422e03] border border-[#78540c]/50 text-[#fed7aa] font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[14px]">calendar_view_week</span>
+          Setiap Sen, Rab, Jum • 06:30
+        </span>
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-[#262833] border border-[#2e313f] text-[#a2a4b8] font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[13px] text-[#ffc640]">bolt</span>
+          Streak 5 hari
+        </span>
+</div>
+</div>
+<!-- Card 2: Minum 2L Air -->
+<div class="task-item bg-[#1c1d26] border border-[#2e313f] rounded-xl p-space-md shadow-sm transition-all hover:bg-[#232530]">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded-lg bg-[#0d3834] border border-[#115e59] flex items-center justify-center text-[#56edb0] flex-shrink-0">
+<span class="material-symbols-outlined text-[22px]">water_drop</span>
+</div>
+<div class="flex flex-col min-w-0">
+<h3 class="font-title-sm text-title-sm text-[#f1f2fc] truncate font-semibold">Minum 2L Air</h3>
+<span class="font-body-sm text-body-sm text-[#a2a4b8] truncate">120x selesai • Berjalan terus</span>
+</div>
+</div>
+<div class="relative flex-shrink-0">
+<button aria-label="Opsi lainnya" class="w-8 h-8 flex items-center justify-center rounded-full text-[#a2a4b8] hover:text-[#f1f2fc] hover:bg-[#292a2f] transition-colors" onclick="toggleMenu('menu-2')">
+<span class="material-symbols-outlined text-[20px]">more_vert</span>
+</button>
+<div class="hidden absolute right-0 top-9 w-40 bg-[#1e1f25] border border-[#2e313f] rounded-xl shadow-2xl p-1.5 z-30 flex flex-col gap-0.5" id="menu-2">
+<button class="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-[#292a2f] text-[#f1f2fc] font-label-md text-label-md text-left w-full">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+              Edit Definisi
+            </button>
+<button class="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-[#292a2f] text-[#f1f2fc] font-label-md text-label-md text-left w-full">
+<span class="material-symbols-outlined text-[18px]">archive</span>
+              Arsipkan
+            </button>
+<button class="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-[#451217] text-[#ffb4ab] font-label-md text-label-md text-left w-full">
+<span class="material-symbols-outlined text-[18px]">delete</span>
+              Hapus
+            </button>
+</div>
+</div>
+</div>
+<!-- Schedule rule badge -->
+<div class="mt-3 flex items-center flex-wrap gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-[#422e03] border border-[#78540c]/50 text-[#fed7aa] font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[14px]">update</span>
+          Setiap Hari • Tiap 2 jam
+        </span>
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-[#262833] border border-[#2e313f] text-[#a2a4b8] font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[13px] text-[#56edb0]">autorenew</span>
+          Interval Aktif
+        </span>
+</div>
+</div>
+<!-- Card 3: Bersihkan Filter AC -->
+<div class="task-item bg-[#1c1d26] border border-[#2e313f] rounded-xl p-space-md shadow-sm transition-all hover:bg-[#232530]">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded-lg bg-[#272938] border border-[#3b3e52] flex items-center justify-center text-[#818cf8] flex-shrink-0">
+<span class="material-symbols-outlined text-[22px]">mode_fan</span>
+</div>
+<div class="flex flex-col min-w-0">
+<h3 class="font-title-sm text-title-sm text-[#f1f2fc] truncate font-semibold">Bersihkan Filter AC</h3>
+<span class="font-body-sm text-body-sm text-[#a2a4b8] truncate">Jadwal berikutnya: 16 Des 2026</span>
+</div>
+</div>
+<div class="relative flex-shrink-0">
+<button aria-label="Opsi lainnya" class="w-8 h-8 flex items-center justify-center rounded-full text-[#a2a4b8] hover:text-[#f1f2fc] hover:bg-[#292a2f] transition-colors" onclick="toggleMenu('menu-3')">
+<span class="material-symbols-outlined text-[20px]">more_vert</span>
+</button>
+<div class="hidden absolute right-0 top-9 w-40 bg-[#1e1f25] border border-[#2e313f] rounded-xl shadow-2xl p-1.5 z-30 flex flex-col gap-0.5" id="menu-3">
+<button class="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-[#292a2f] text-[#f1f2fc] font-label-md text-label-md text-left w-full">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+              Edit Definisi
+            </button>
+<button class="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-[#292a2f] text-[#f1f2fc] font-label-md text-label-md text-left w-full">
+<span class="material-symbols-outlined text-[18px]">archive</span>
+              Arsipkan
+            </button>
+<button class="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-[#451217] text-[#ffb4ab] font-label-md text-label-md text-left w-full">
+<span class="material-symbols-outlined text-[18px]">delete</span>
+              Hapus
+            </button>
+</div>
+</div>
+</div>
+<!-- Schedule rule badge -->
+<div class="mt-3 flex items-center flex-wrap gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-[#422e03] border border-[#78540c]/50 text-[#fed7aa] font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[14px]">repeat</span>
+          Setiap 45 Hari • Anchor: 1 Nov 2026
+        </span>
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-[#262833] border border-[#2e313f] text-[#a2a4b8] font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[13px] text-[#818cf8]">alarm</span>
+          H-17
+        </span>
+</div>
+</div>
+<!-- Card 4: Bayar Sewa Apartemen -->
+<div class="task-item bg-[#1c1d26] border border-[#2e313f] rounded-xl p-space-md shadow-sm transition-all hover:bg-[#232530]">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded-lg bg-[#272938] border border-[#3b3e52] flex items-center justify-center text-[#818cf8] flex-shrink-0">
+<span class="material-symbols-outlined text-[22px]">payments</span>
+</div>
+<div class="flex flex-col min-w-0">
+<h3 class="font-title-sm text-title-sm text-[#f1f2fc] truncate font-semibold">Bayar Sewa Apartemen</h3>
+<span class="font-body-sm text-body-sm text-[#a2a4b8] truncate">Jadwal berikutnya: 1 Des 2026</span>
+</div>
+</div>
+<div class="relative flex-shrink-0">
+<button aria-label="Opsi lainnya" class="w-8 h-8 flex items-center justify-center rounded-full text-[#a2a4b8] hover:text-[#f1f2fc] hover:bg-[#292a2f] transition-colors" onclick="toggleMenu('menu-4')">
+<span class="material-symbols-outlined text-[20px]">more_vert</span>
+</button>
+<div class="hidden absolute right-0 top-9 w-40 bg-[#1e1f25] border border-[#2e313f] rounded-xl shadow-2xl p-1.5 z-30 flex flex-col gap-0.5" id="menu-4">
+<button class="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-[#292a2f] text-[#f1f2fc] font-label-md text-label-md text-left w-full">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+              Edit Definisi
+            </button>
+<button class="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-[#292a2f] text-[#f1f2fc] font-label-md text-label-md text-left w-full">
+<span class="material-symbols-outlined text-[18px]">archive</span>
+              Arsipkan
+            </button>
+<button class="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-[#451217] text-[#ffb4ab] font-label-md text-label-md text-left w-full">
+<span class="material-symbols-outlined text-[18px]">delete</span>
+              Hapus
+            </button>
+</div>
+</div>
+</div>
+<!-- Schedule rule badge -->
+<div class="mt-3 flex items-center flex-wrap gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-[#422e03] border border-[#78540c]/50 text-[#fed7aa] font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[14px]">event_repeat</span>
+          Bulanan tiap tanggal 1
+        </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-[#451217] border border-[#7f1d1d]/60 text-[#ffb4ab] font-label-sm text-label-sm font-semibold">
+          Prioritas Tinggi
+        </span>
+</div>
+</div>
+<!-- Card 5: Ganti Password Akun -->
+<div class="task-item bg-[#1c1d26] border border-[#2e313f] rounded-xl p-space-md shadow-sm transition-all hover:bg-[#232530]">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded-lg bg-[#272938] border border-[#3b3e52] flex items-center justify-center text-[#818cf8] flex-shrink-0">
+<span class="material-symbols-outlined text-[22px]">lock_reset</span>
+</div>
+<div class="flex flex-col min-w-0">
+<h3 class="font-title-sm text-title-sm text-[#f1f2fc] truncate font-semibold">Ganti Password Akun</h3>
+<span class="font-body-sm text-body-sm text-[#a2a4b8] truncate">Keamanan berkala • Cadangan lokal</span>
+</div>
+</div>
+<div class="relative flex-shrink-0">
+<button aria-label="Opsi lainnya" class="w-8 h-8 flex items-center justify-center rounded-full text-[#a2a4b8] hover:text-[#f1f2fc] hover:bg-[#292a2f] transition-colors" onclick="toggleMenu('menu-5')">
+<span class="material-symbols-outlined text-[20px]">more_vert</span>
+</button>
+<div class="hidden absolute right-0 top-9 w-40 bg-[#1e1f25] border border-[#2e313f] rounded-xl shadow-2xl p-1.5 z-30 flex flex-col gap-0.5" id="menu-5">
+<button class="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-[#292a2f] text-[#f1f2fc] font-label-md text-label-md text-left w-full">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+              Edit Definisi
+            </button>
+<button class="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-[#292a2f] text-[#f1f2fc] font-label-md text-label-md text-left w-full">
+<span class="material-symbols-outlined text-[18px]">archive</span>
+              Arsipkan
+            </button>
+<button class="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-[#451217] text-[#ffb4ab] font-label-md text-label-md text-left w-full">
+<span class="material-symbols-outlined text-[18px]">delete</span>
+              Hapus
+            </button>
+</div>
+</div>
+</div>
+<!-- Schedule rule badge -->
+<div class="mt-3 flex items-center flex-wrap gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-[#422e03] border border-[#78540c]/50 text-[#fed7aa] font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[14px]">edit_calendar</span>
+          Tanggal Pilihan (4 tanggal)
+        </span>
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-[#262833] border border-[#2e313f] text-[#a2a4b8] font-label-sm text-label-sm">
+          Offline Master
+        </span>
+</div>
+</div>
+</div>
+<!-- Empty state fallback when searching (initially hidden) -->
+<div class="hidden flex-col items-center justify-center py-10 px-margin text-center" id="searchEmptyState">
+<div class="w-16 h-16 rounded-full bg-[#1c1d26] border border-[#2e313f] flex items-center justify-center text-[#8a8d9f] mb-3">
+<span class="material-symbols-outlined text-[32px]">manage_search</span>
+</div>
+<p class="font-title-sm text-title-sm text-[#f1f2fc] font-semibold">Tidak ditemukan rutinitas</p>
+<p class="font-body-sm text-body-sm text-[#a2a4b8] mt-1">Coba gunakan kata kunci lain atau periksa filter yang aktif.</p>
+</div>
+<!-- Offline-First Local Storage Info Callout -->
+<div class="flex items-center gap-space-sm p-space-md rounded-2xl bg-[#1c1d26] border border-[#2e313f] text-[#f1f2fc]">
+<span class="material-symbols-outlined text-[#818cf8] text-[24px] flex-shrink-0">cloud_done</span>
+<div class="flex flex-col min-w-0">
+<span class="font-title-sm text-title-sm font-semibold text-[#f1f2fc]">Master Rutinitas Mandiri</span>
+<p class="font-body-sm text-body-sm text-[#a2a4b8]">Semua aturan pengulangan dihitung secara lokal di perangkat tanpa koneksi internet.</p>
+</div>
+</div>
+<!-- Floating Action Button: Prominent indigo FAB (#6366f1) -->
+<div class="fixed bottom-24 right-margin z-40">
+<button aria-label="Tambah Rutinitas Baru" class="flex items-center gap-2 h-14 pl-4 pr-5 rounded-full bg-[#6366f1] text-white shadow-[0_6px_20px_rgba(99,102,241,0.45)] hover:bg-[#4f46e5] active:scale-95 transition-all" id="btnNewRoutine">
+<span class="material-symbols-outlined text-[24px]">add</span>
+<span class="font-label-lg text-label-lg font-bold tracking-wide">Rutinitas Baru</span>
+</button>
+</div>
+</div>
+<script>
+  // Simple dropdown toggle helper
+  function toggleMenu(menuId) {
+    const target = document.getElementById(menuId);
+    const allMenus = document.querySelectorAll('[id^="menu-"]');
+    allMenus.forEach(menu => {
+      if (menu.id !== menuId) menu.classList.add('hidden');
+    });
+    if (target) {
+      target.classList.toggle('hidden');
+    }
+  }
+
+  // Close menus when clicking outside
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('[onclick^="toggleMenu"]') && !e.target.closest('[id^="menu-"]')) {
+      document.querySelectorAll('[id^="menu-"]').forEach(menu => menu.classList.add('hidden'));
+    }
+  });
+
+  // Client-side search filtration
+  const searchInput = document.getElementById('taskSearch');
+  const clearBtn = document.getElementById('clearSearchBtn');
+  const taskItems = document.querySelectorAll('.task-item');
+  const emptyState = document.getElementById('searchEmptyState');
+
+  searchInput.addEventListener('input', (e) => {
+    const query = e.target.value.toLowerCase().trim();
+    if (query.length > 0) {
+      clearBtn.classList.remove('hidden');
+    } else {
+      clearBtn.classList.add('hidden');
+    }
+
+    let matchCount = 0;
+    taskItems.forEach(item => {
+      const text = item.textContent.toLowerCase();
+      if (text.includes(query)) {
+        item.style.display = 'block';
+        matchCount++;
+      } else {
+        item.style.display = 'none';
+      }
+    });
+
+    if (matchCount === 0) {
+      emptyState.classList.remove('hidden');
+      emptyState.classList.add('flex');
+    } else {
+      emptyState.classList.add('hidden');
+      emptyState.classList.remove('flex');
+    }
+  });
+
+  clearBtn.addEventListener('click', () => {
+    searchInput.value = '';
+    clearBtn.classList.add('hidden');
+    taskItems.forEach(item => item.style.display = 'block');
+    emptyState.classList.add('hidden');
+    emptyState.classList.remove('flex');
+    searchInput.focus();
+  });
+
+  // Filter chips visual active state
+  const chips = document.querySelectorAll('.chip-filter');
+  chips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      chips.forEach(c => {
+        c.classList.remove('bg-[#4338ca]', 'text-[#e0e7ff]', 'border-[#6366f1]/40');
+        c.classList.add('bg-[#262833]', 'text-[#a2a4b8]', 'border-[#2e313f]');
+        const icon = c.querySelector('.material-symbols-outlined');
+        if (icon && icon.textContent === 'check') {
+          icon.style.display = 'none';
+        }
+      });
+      chip.classList.add('bg-[#4338ca]', 'text-[#e0e7ff]', 'border-[#6366f1]/40');
+      chip.classList.remove('bg-[#262833]', 'text-[#a2a4b8]', 'border-[#2e313f]');
+    });
+  });
+
+  // Tactile feedback on FAB
+  const fab = document.getElementById('btnNewRoutine');
+  if (fab) {
+    fab.addEventListener('click', () => {
+      fab.classList.add('scale-90');
+      setTimeout(() => fab.classList.remove('scale-90'), 150);
+    });
+  }
+</script></main><!-- Bottom navigation in dark bar (#121318 / #1a1b20) --><nav class="fixed bottom-0 w-full z-50 pb-safe bg-[#121318]/95 backdrop-blur-xl border-t border-[#2e313f]/60 shadow-[0_-2px_16px_rgba(0,0,0,0.5)]" data-active-classes="[&amp;_[data-indicator]]:bg-[#4338ca] [&amp;_[data-indicator]]:text-[#e0e7ff] [&amp;_[data-label]]:text-[#f1f2fc] [&amp;_[data-label]]:font-bold"><div class="h-20 px-space-xs flex items-center justify-around"><a class="group flex flex-col items-center justify-center gap-1 flex-1 py-1 text-[#a2a4b8] min-h-[44px]" data-path="hari-ini" href="#"><div class="w-16 h-8 rounded-full flex items-center justify-center transition-all duration-200 group-hover:bg-[#232530]" data-indicator="true"><span class="material-symbols-outlined text-[24px]">event_available</span></div><span class="font-label-md text-label-md tracking-tight leading-none" data-label="true">Hari Ini</span></a><a class="group flex flex-col items-center justify-center gap-1 flex-1 py-1 text-[#a2a4b8] min-h-[44px]" data-path="mendatang" href="#"><div class="w-16 h-8 rounded-full flex items-center justify-center transition-all duration-200 group-hover:bg-[#232530]" data-indicator="true"><span class="material-symbols-outlined text-[24px]">calendar_month</span></div><span class="font-label-md text-label-md tracking-tight leading-none" data-label="true">Mendatang</span></a><a aria-current="page" class="group flex flex-col items-center justify-center gap-1 flex-1 py-1 text-[#a2a4b8] min-h-[44px] [&amp;_[data-indicator]]:bg-[#4338ca] [&amp;_[data-indicator]]:text-[#e0e7ff] [&amp;_[data-label]]:text-[#f1f2fc] [&amp;_[data-label]]:font-bold" data-path="semua-tugas" href="#"><div class="w-16 h-8 rounded-full flex items-center justify-center transition-all duration-200 group-hover:bg-[#232530]" data-indicator="true"><span class="material-symbols-outlined text-[24px]">checklist_rtl</span></div><span class="font-label-md text-label-md tracking-tight leading-none" data-label="true">Semua Tugas</span></a><a class="group flex flex-col items-center justify-center gap-1 flex-1 py-1 text-[#a2a4b8] min-h-[44px]" data-path="widget-and-info" href="#"><div class="w-16 h-8 rounded-full flex items-center justify-center transition-all duration-200 group-hover:bg-[#232530]" data-indicator="true"><span class="material-symbols-outlined text-[24px]">widgets</span></div><span class="font-label-md text-label-md tracking-tight leading-none" data-label="true">Widget &amp; Info</span></a></div><div class="h-4 flex items-center justify-center select-none"><div class="w-28 h-1 rounded-full bg-white/20"></div></div></nav></body></html>

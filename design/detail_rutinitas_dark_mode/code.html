@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+
+<html class="h-full dark" lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "tertiary": "#56edb0",
+          "surface-container-highest": "#34343a",
+          "surface-tint": "#b8c4ff",
+          "background": "#121318",
+          "on-background": "#e3e1e9",
+          "on-error-container": "#ffdad6",
+          "error": "#ffb4ab",
+          "outline-variant": "#454650",
+          "on-primary-container": "#354484",
+          "secondary": "#ffc640",
+          "on-secondary-fixed-variant": "#5c4300",
+          "primary": "#c9d1ff",
+          "error-container": "#93000a",
+          "on-primary-fixed-variant": "#334282",
+          "surface": "#121318",
+          "surface-container-lowest": "#0d0e13",
+          "on-primary-fixed": "#001354",
+          "inverse-primary": "#4b5a9c",
+          "secondary-fixed": "#ffdf9f",
+          "primary-fixed-dim": "#b8c4ff",
+          "surface-container-high": "#292a2f",
+          "surface-container-low": "#1a1b20",
+          "on-secondary-fixed": "#261a00",
+          "surface-bright": "#38393e",
+          "secondary-container": "#e3aa00",
+          "on-primary": "#1a2b6a",
+          "tertiary-fixed-dim": "#45dfa4",
+          "inverse-on-surface": "#2f3036",
+          "surface-container": "#1e1f25",
+          "outline": "#8f909b",
+          "tertiary-container": "#2fd096",
+          "surface-dim": "#121318",
+          "on-secondary-container": "#5a4100",
+          "inverse-surface": "#e3e1e9",
+          "secondary-fixed-dim": "#f9bd22",
+          "primary-container": "#a5b4fc",
+          "on-secondary": "#402d00",
+          "tertiary-fixed": "#68fcbf",
+          "on-tertiary": "#003825",
+          "on-error": "#690005",
+          "on-surface": "#e3e1e9",
+          "on-surface-variant": "#c6c5d2",
+          "on-tertiary-fixed": "#002114",
+          "primary-fixed": "#dde1ff",
+          "on-tertiary-container": "#005439",
+          "on-tertiary-fixed-variant": "#005137",
+          "surface-variant": "#34343a"
+        },
+        "borderRadius": {
+          "DEFAULT": "0.25rem",
+          "lg": "0.5rem",
+          "xl": "0.75rem",
+          "full": "9999px"
+        },
+        "spacing": {
+          "gutter": "1rem",
+          "margin-tablet": "1.5rem",
+          "space-xs": "0.25rem",
+          "space-xl": "2rem",
+          "gutter-sm": "0.75rem",
+          "margin": "1rem",
+          "margin-desktop": "2.5rem",
+          "space-sm": "0.5rem",
+          "space-md": "1rem",
+          "space-lg": "1.5rem"
+        },
+        "fontFamily": {
+          "label-md": ["Space Grotesk"],
+          "label-lg": ["Space Grotesk"],
+          "headline-lg": ["Plus Jakarta Sans"],
+          "body-lg": ["Plus Jakarta Sans"],
+          "display-lg": ["Plus Jakarta Sans"],
+          "headline-lg-mobile": ["Plus Jakarta Sans"],
+          "headline-sm": ["Plus Jakarta Sans"],
+          "body-sm": ["Plus Jakarta Sans"],
+          "body-md": ["Plus Jakarta Sans"],
+          "headline-md": ["Plus Jakarta Sans"],
+          "display-lg-mobile": ["Plus Jakarta Sans"],
+          "label-sm": ["Space Grotesk"]
+        },
+        "fontSize": {
+          "label-md": ["12px", { "lineHeight": "16px", "fontWeight": "600" }],
+          "label-lg": ["14px", { "lineHeight": "20px", "fontWeight": "600" }],
+          "headline-lg": ["32px", { "lineHeight": "40px", "fontWeight": "700" }],
+          "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+          "display-lg": ["44px", { "lineHeight": "52px", "fontWeight": "700" }],
+          "headline-lg-mobile": ["26px", { "lineHeight": "34px", "fontWeight": "700" }],
+          "headline-sm": ["18px", { "lineHeight": "24px", "fontWeight": "600" }],
+          "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }],
+          "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }],
+          "headline-md": ["22px", { "lineHeight": "28px", "fontWeight": "600" }],
+          "display-lg-mobile": ["34px", { "lineHeight": "42px", "fontWeight": "700" }],
+          "label-sm": ["10px", { "lineHeight": "14px", "fontWeight": "500" }]
+        }
+      }
+    }
+  }</script><style>@layer base { html, body { width: 100%; margin: 0; padding: 0; min-height: 100%; } body { overscroll-behavior-y: none; } .pb-safe { padding-bottom: env(safe-area-inset-bottom, 0px); } .pt-safe { padding-top: env(safe-area-inset-top, 0px); } } ::-webkit-scrollbar { display: none; }</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head><body class="bg-[#121318] font-body-md text-body-md text-on-surface antialiased flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 bg-[#121318]/90 backdrop-blur-xl border-b border-[#242633]/60 pt-safe"><div class="flex flex-col h-24 justify-between"><div class="h-6 px-margin flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm select-none"><span class="font-medium tracking-tight text-on-surface">09:41</span><div class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[16px]">wifi</span><span class="material-symbols-outlined text-[16px]">signal_cellular_alt</span><span class="material-symbols-outlined text-[18px]">battery_full</span></div></div><div class="h-18 px-margin pb-1 flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-xs min-w-0 flex-1"><button aria-label="Kembali" class="w-11 h-11 -ml-2 flex items-center justify-center rounded-full text-on-surface hover:bg-[#1c1d25] transition-colors" onclick="history.back()"><span class="material-symbols-outlined text-[24px]">arrow_back</span></button><img alt="Rutina App Icon" class="h-7 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida/ALJJyrBIcMSM8L58JyZcW2-lraDQWJe3lVrV-gfYEJVwfaoJK5nAAgICSholCOQJWs66VdwgOCL1QUNzE1p3fS0vKzpvXzziCsYTit3za9oSYqlrSChUFgVgZv3xhS5Ny-AhWTjSJ9pM4Zj_kQ3Ft8c3avsgVyN-Oszfzl8saisEEIKt8ascG7AUvp7ZaTnlrhZJ8uqyJ15VjD2P_kfu1-Yojr9UsBysjTktgrY_-p-RZEs"/><h1 class="font-headline-sm text-headline-sm text-on-surface truncate leading-tight ml-1">Detail Rutinitas</h1></div><div class="flex items-center gap-space-xs flex-shrink-0"><button aria-label="Cari" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:bg-[#1c1d25] transition-colors"><span class="material-symbols-outlined text-[24px]">search</span></button><button aria-label="Profil pengguna" class="w-11 h-11 flex items-center justify-center rounded-full hover:bg-[#1c1d25] transition-colors"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-1 ring-outline-variant/40" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9F70oloTGQzbtx617wv7kHrMGw7IC_d8R7E3BJ_1qQuCS5f8SHxR30sLeDo_oNbr3Ou-Uv75DQzX1zrI3d1iotm2SEH28JRMUqBrvLEl0WJe_pzlNyW0VcYVnRyhLksktX7vEyZijVQLKwa2oL8EZRNhIguBa_eSZY3ao7bwID0WQdnhDdTbVz6nLhXLilT0uHZgbn-TupsrOByACegp6eb4C5piuHJeuEJPTaw"/></button></div></div></div></header><main class="flex flex-col relative w-full pt-24 pb-8 bg-[#121318] px-margin min-h-screen"><div class="flex flex-col w-full pb-10 space-y-space-lg">
+<!-- Header Card with Accent Ribbon -->
+<div class="relative overflow-hidden rounded-xl bg-[#1c1d25] border border-[#242633] p-space-md shadow-lg shadow-black/40">
+<div class="absolute left-0 top-0 bottom-0 w-1.5 bg-[#6366f1] rounded-l-xl"></div>
+<div class="flex items-start justify-between gap-space-sm pl-2">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-12 h-12 rounded-xl bg-[#242633] border border-[#34343a] flex items-center justify-center text-[#c9d1ff] flex-shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 1;">fitness_center</span>
+</div>
+<div class="min-w-0">
+<h2 class="font-headline-md-mobile text-headline-md-mobile text-on-surface truncate">Olahraga Pagi &amp; Stretching</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1 mt-0.5">
+<span class="material-symbols-outlined text-[15px] text-tertiary">cloud_done</span>
+            Tersimpan lokal • Terakhir diubah 2 jam lalu
+          </p>
+</div>
+</div>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-[#3d2e05] border border-[#785b0d] text-[#ffc640] font-label-md text-label-md flex-shrink-0">
+<span class="w-2 h-2 rounded-full bg-[#ffc640] animate-pulse"></span>
+        Rutinitas Aktif
+      </span>
+</div>
+</div>
+<!-- Metric Statistics (Tactile Bento Triplet) -->
+<div class="grid grid-cols-3 gap-space-sm">
+<div class="flex flex-col items-center justify-center p-3 rounded-xl bg-[#1f212d] border border-[#292a2f] text-center shadow-md">
+<div class="w-8 h-8 rounded-full bg-[#818cf8]/15 flex items-center justify-center text-[#818cf8] mb-1">
+<span class="material-symbols-outlined text-[18px]">check_circle</span>
+</div>
+<span class="font-headline-md-mobile text-headline-md-mobile text-[#818cf8] font-bold">42</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">Total Selesai</span>
+</div>
+<div class="flex flex-col items-center justify-center p-3 rounded-xl bg-[#1f212d] border border-[#292a2f] text-center shadow-md">
+<div class="w-8 h-8 rounded-full bg-[#38bdf8]/15 flex items-center justify-center text-[#38bdf8] mb-1">
+<span class="material-symbols-outlined text-[18px]">pie_chart</span>
+</div>
+<span class="font-headline-md-mobile text-headline-md-mobile text-[#38bdf8] font-bold">91%</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">Kepatuhan 30 Hari</span>
+</div>
+<div class="flex flex-col items-center justify-center p-3 rounded-xl bg-[#1f212d] border border-[#292a2f] text-center shadow-md">
+<div class="w-8 h-8 rounded-full bg-[#fbbf24]/15 flex items-center justify-center text-[#fbbf24] mb-1">
+<span class="material-symbols-outlined text-[18px]">local_fire_department</span>
+</div>
+<span class="font-headline-md-mobile text-headline-md-mobile text-[#fbbf24] font-bold">14 Hari</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">Rentetan Aktif</span>
+</div>
+</div>
+<!-- Visual Motivational Micro-Banner -->
+<div class="relative overflow-hidden rounded-xl bg-gradient-to-r from-[#1e293b] to-[#1a2333] border border-[#334155]/60 p-4 flex items-center gap-4 shadow-md">
+<div class="w-14 h-14 rounded-lg bg-cover bg-center flex-shrink-0 ring-1 ring-white/10" data-alt="A peaceful bright morning indoor aesthetic with stretching mat, warm golden sunlight streaming through a clean modern window, soft focus healthy living environment with gentle natural light" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCFWCAvJ4LY-ECxRrE7WXyQD6lQ4or29EPJsnKeNvvqR5KDFE8pDRtfixriuWdgB5Ux2ef8QNT-8bqlAXfc9hpqUFk3IIeH2jHo6JKvEr7mUqymzlxQ3bAHTh26A7CetTOWaJ13G0e1MwWLgw6R7cUFD4JotyspOUobIaLiccp1JZL0ydpRXHI7cW-R-T-GZUY9d72iP2YmoJdwsaAW0c_rXJBlwZ2ghi7mejDIAA')"></div>
+<div class="min-w-0 flex-1">
+<p class="font-headline-sm text-[15px] font-semibold text-white">Konsistensi Luar Biasa!</p>
+<p class="font-body-sm text-body-sm text-slate-300 line-clamp-2 mt-0.5">Pertahankan ritme pagi ini untuk mempertahankan performa fisik terbaik sepanjang bulan ini.</p>
+</div>
+</div>
+<!-- Recurrence Rules Info Card -->
+<div class="flex flex-col rounded-xl bg-[#1c1d25] border border-[#242633] p-space-md shadow-sm space-y-3">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm text-on-surface flex items-center gap-2">
+<span class="material-symbols-outlined text-[#818cf8] text-[20px]">event_repeat</span>
+        Aturan &amp; Jadwal Rutin
+      </h3>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-[#242633] text-on-surface-variant border border-outline-variant/30">Otomatis</span>
+</div>
+<div class="space-y-2.5 pt-1">
+<div class="flex items-start justify-between py-1 border-none">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Tipe Jadwal</span>
+<span class="font-body-md text-body-md text-on-surface text-right font-medium">Mingguan (Sen, Rab, Jum)</span>
+</div>
+<div class="flex items-center justify-between py-1 border-none">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Waktu Pengingat</span>
+<span class="font-body-md text-body-md text-[#818cf8] text-right font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">alarm</span> 06:30 WIB
+        </span>
+</div>
+<div class="flex items-start justify-between py-1 border-none">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Rentang Waktu</span>
+<span class="font-body-sm text-body-sm text-on-surface text-right font-medium">1 Okt 2026 - Tanpa Batas</span>
+</div>
+<div class="flex items-start justify-between py-1 border-none">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Logika Pencatatan</span>
+<span class="font-body-sm text-body-sm text-tertiary text-right font-medium">Setiap kejadian dicatat terpisah</span>
+</div>
+</div>
+</div>
+<!-- Upcoming Occurrences Section -->
+<div class="flex flex-col space-y-2.5">
+<div class="flex items-center justify-between px-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-[20px]">upcoming</span>
+        Jadwal Mendatang
+      </h3>
+<span class="font-label-sm text-label-sm text-on-surface-variant">2 Sesi Terdekat</span>
+</div>
+<div class="flex flex-col space-y-2">
+<!-- Upcoming Item 1 -->
+<div class="flex items-center justify-between p-space-md rounded-xl bg-[#1c1d25] border border-[#242633] shadow-sm hover:bg-[#242633] transition-colors">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-full bg-[#121318] border border-[#242633] flex items-center justify-center text-outline">
+<span class="material-symbols-outlined text-[20px]">schedule</span>
+</div>
+<div>
+<p class="font-headline-sm text-[14px] text-on-surface">Jumat, 21 Nov 2026</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Mulai pukul 06:30 WIB</p>
+</div>
+</div>
+<span class="font-label-md text-label-md px-3 py-1 rounded-full bg-[#164e63]/60 border border-[#0891b2]/40 text-[#7dd3fc]">Menunggu</span>
+</div>
+<!-- Upcoming Item 2 -->
+<div class="flex items-center justify-between p-space-md rounded-xl bg-[#1c1d25] border border-[#242633] shadow-sm hover:bg-[#242633] transition-colors">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-full bg-[#121318] border border-[#242633] flex items-center justify-center text-outline">
+<span class="material-symbols-outlined text-[20px]">schedule</span>
+</div>
+<div>
+<p class="font-headline-sm text-[14px] text-on-surface">Senin, 24 Nov 2026</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Mulai pukul 06:30 WIB</p>
+</div>
+</div>
+<span class="font-label-md text-label-md px-3 py-1 rounded-full bg-[#164e63]/60 border border-[#0891b2]/40 text-[#7dd3fc]">Menunggu</span>
+</div>
+</div>
+</div>
+<!-- Occurrence History Section -->
+<div class="flex flex-col space-y-2.5">
+<div class="flex items-center justify-between px-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">history</span>
+        Riwayat Kejadian
+      </h3>
+<button class="font-label-md text-label-md text-primary font-medium hover:underline">Lihat Semua</button>
+</div>
+<div class="flex flex-col space-y-2">
+<!-- History Item 1: Selesai -->
+<div class="flex items-center justify-between p-space-md rounded-xl bg-[#132822] border border-[#1d4d3e]/70 shadow-sm">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-full bg-[#005439] flex items-center justify-center text-[#56edb0]">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">check</span>
+</div>
+<div>
+<p class="font-headline-sm text-[14px] text-on-surface">Rabu, 19 Nov 2026</p>
+<p class="font-body-sm text-body-sm text-[#56edb0] flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">done_all</span> Selesai pada 06:45 WIB
+            </p>
+</div>
+</div>
+<span class="font-label-sm text-label-sm px-2.5 py-1 rounded-full bg-[#1a3d31] text-[#56edb0] font-medium border border-[#2fd096]/30">+15 mnt</span>
+</div>
+<!-- History Item 2: Selesai -->
+<div class="flex items-center justify-between p-space-md rounded-xl bg-[#132822] border border-[#1d4d3e]/70 shadow-sm">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-full bg-[#005439] flex items-center justify-center text-[#56edb0]">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">check</span>
+</div>
+<div>
+<p class="font-headline-sm text-[14px] text-on-surface">Senin, 17 Nov 2026</p>
+<p class="font-body-sm text-body-sm text-[#56edb0] flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">done_all</span> Selesai pada 07:10 WIB
+            </p>
+</div>
+</div>
+<span class="font-label-sm text-label-sm px-2.5 py-1 rounded-full bg-[#1a3d31] text-[#56edb0] font-medium border border-[#2fd096]/30">+40 mnt</span>
+</div>
+<!-- History Item 3: Terlewat (Grayed Out) -->
+<div class="flex items-center justify-between p-space-md rounded-xl bg-[#3b181d]/50 border border-[#5c242a] shadow-none">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-full bg-[#4f1e24] flex items-center justify-center text-[#f87171]">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</div>
+<div>
+<p class="font-headline-sm text-[14px] text-on-surface/80">Jumat, 14 Nov 2026</p>
+<p class="font-body-sm text-body-sm text-[#ffb4ab]">Terlewat / Tidak diceklis</p>
+</div>
+</div>
+<span class="font-label-sm text-label-sm px-2.5 py-0.5 rounded-md bg-[#4f1e24] text-[#f87171] font-medium border border-[#7f1d1d]/40">Alfa</span>
+</div>
+</div>
+</div>
+<!-- Bottom Action Group -->
+<div class="flex flex-col space-y-2 pt-2">
+<!-- Primary Edit Button -->
+<button class="w-full h-12 rounded-full bg-[#6366f1] text-white font-label-lg text-label-lg font-semibold flex items-center justify-center gap-2 shadow-lg shadow-indigo-950/50 hover:bg-[#5558e6] active:scale-[0.99] transition-all">
+<span class="material-symbols-outlined text-[20px]">edit_calendar</span>
+      Edit Jadwal &amp; Pengingat
+    </button>
+<!-- Secondary & Danger Row -->
+<div class="grid grid-cols-2 gap-space-sm">
+<button class="h-11 rounded-full bg-[#272935] hover:bg-[#323444] text-on-surface font-label-md text-label-md font-medium flex items-center justify-center gap-1.5 border border-outline-variant/30 active:scale-[0.99] transition-colors">
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">archive</span>
+        Arsipkan
+      </button>
+<button class="h-11 rounded-full bg-[#3b181d] hover:bg-[#4f1e24] text-[#f87171] border border-[#7f1d1d]/50 font-label-md text-label-md font-medium flex items-center justify-center gap-1.5 active:scale-[0.99] transition-colors">
+<span class="material-symbols-outlined text-[18px]">delete</span>
+        Hapus
+      </button>
+</div>
+</div>
+</div><div class="fixed bottom-0 left-0 right-0 h-6 pb-safe pointer-events-none flex items-center justify-center"><div class="w-28 h-1 rounded-full bg-white/20"></div></div></main></body></html>

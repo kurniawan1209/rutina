@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 1. Soft Elevation Drop Shadows -->
+    <!-- Track Ring Shadow -->
+    <path
+        android:pathData="M 54, 31.5 A 24, 24 0 1, 1 53.99, 31.5"
+        android:strokeWidth="4"
+        android:strokeColor="#25000000"
+        android:fillColor="#00000000" />
+
+    <!-- Checkmark Shadow -->
+    <path
+        android:pathData="M 41.5, 54.5 L 49.5, 62.5 L 66.5, 45.5"
+        android:strokeWidth="6.5"
+        android:strokeColor="#35000000"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+
+    <!-- 2. Routine Rhythm Track (Subtle translucent ring) -->
+    <path
+        android:pathData="M 54, 30 A 24, 24 0 1, 1 53.99, 30"
+        android:strokeWidth="4"
+        android:strokeColor="#30FFFFFF"
+        android:fillColor="#00000000" />
+
+    <!-- 3. Dynamic Rhythm Progress Arc (Clockwise sweep from bottom-left around to top-right) -->
+    <path
+        android:pathData="M 37, 71 A 24, 24 0 1, 1 71, 37"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="37"
+                android:startY="71"
+                android:endX="71"
+                android:endY="37"
+                android:type="linear">
+                <item android:color="#A5B4FC" android:offset="0.0" />
+                <item android:color="#E0E7FF" android:offset="0.45" />
+                <item android:color="#FEA619" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 4. Momentum Pulse Node (At the tip of progress arc) -->
+    <!-- Outer Glow -->
+    <path
+        android:pathData="M 71, 37 m -5.5, 0 a 5.5, 5.5 0 1, 1 11, 0 a 5.5, 5.5 0 1, 1 -11, 0"
+        android:fillColor="#40FEA619" />
+    <!-- Core Amber Dot -->
+    <path
+        android:pathData="M 71, 37 m -3.2, 0 a 3.2, 3.2 0 1, 1 6.4, 0 a 3.2, 3.2 0 1, 1 -6.4, 0"
+        android:fillColor="#FEA619" />
+    <!-- Inner Highlight -->
+    <path
+        android:pathData="M 70.2, 36.2 m -1.2, 0 a 1.2, 1.2 0 1, 1 2.4, 0 a 1.2, 1.2 0 1, 1 -2.4, 0"
+        android:fillColor="#FFFBEB" />
+
+    <!-- 5. Bold Crisp White Checkmark -->
+    <path
+        android:pathData="M 41.5, 53.0 L 49.5, 61.0 L 66.5, 44.0"
+        android:strokeWidth="6.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+</vector>

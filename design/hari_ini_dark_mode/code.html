@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+
+<html class="h-full dark" lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "tertiary": "#56edb0",
+          "surface-container-highest": "#34343a",
+          "surface-tint": "#b8c4ff",
+          "background": "#121318",
+          "on-background": "#e3e1e9",
+          "on-error-container": "#ffdad6",
+          "error": "#ffb4ab",
+          "outline-variant": "#454650",
+          "on-primary-container": "#354484",
+          "secondary": "#ffc640",
+          "on-secondary-fixed-variant": "#5c4300",
+          "primary": "#c9d1ff",
+          "error-container": "#93000a",
+          "on-primary-fixed-variant": "#334282",
+          "surface": "#121318",
+          "surface-container-lowest": "#0d0e13",
+          "on-primary-fixed": "#001354",
+          "inverse-primary": "#4b5a9c",
+          "secondary-fixed": "#ffdf9f",
+          "primary-fixed-dim": "#b8c4ff",
+          "surface-container-high": "#292a2f",
+          "surface-container-low": "#1a1b20",
+          "on-secondary-fixed": "#261a00",
+          "surface-bright": "#38393e",
+          "secondary-container": "#e3aa00",
+          "on-primary": "#1a2b6a",
+          "tertiary-fixed-dim": "#45dfa4",
+          "inverse-on-surface": "#2f3036",
+          "surface-container": "#1e1f25",
+          "outline": "#8f909b",
+          "tertiary-container": "#2fd096",
+          "surface-dim": "#121318",
+          "on-secondary-container": "#5a4100",
+          "inverse-surface": "#e3e1e9",
+          "secondary-fixed-dim": "#f9bd22",
+          "primary-container": "#a5b4fc",
+          "on-secondary": "#402d00",
+          "tertiary-fixed": "#68fcbf",
+          "on-tertiary": "#003825",
+          "on-error": "#690005",
+          "on-surface": "#e3e1e9",
+          "on-surface-variant": "#c6c5d2",
+          "on-tertiary-fixed": "#002114",
+          "primary-fixed": "#dde1ff",
+          "on-tertiary-container": "#005439",
+          "on-tertiary-fixed-variant": "#005137",
+          "surface-variant": "#34343a"
+        },
+        "borderRadius": {
+          "DEFAULT": "0.25rem",
+          "lg": "0.5rem",
+          "xl": "0.75rem",
+          "full": "9999px"
+        },
+        "spacing": {
+          "gutter": "1rem",
+          "margin-tablet": "1.5rem",
+          "space-xs": "0.25rem",
+          "space-xl": "2rem",
+          "gutter-sm": "0.75rem",
+          "margin": "1rem",
+          "margin-desktop": "2.5rem",
+          "space-sm": "0.5rem",
+          "space-md": "1rem",
+          "space-lg": "1.5rem"
+        },
+        "fontFamily": {
+          "label-md": ["Space Grotesk"],
+          "label-lg": ["Space Grotesk"],
+          "headline-lg": ["Plus Jakarta Sans"],
+          "body-lg": ["Plus Jakarta Sans"],
+          "display-lg": ["Plus Jakarta Sans"],
+          "headline-lg-mobile": ["Plus Jakarta Sans"],
+          "headline-sm": ["Plus Jakarta Sans"],
+          "body-sm": ["Plus Jakarta Sans"],
+          "body-md": ["Plus Jakarta Sans"],
+          "headline-md": ["Plus Jakarta Sans"],
+          "display-lg-mobile": ["Plus Jakarta Sans"],
+          "label-sm": ["Space Grotesk"]
+        },
+        "fontSize": {
+          "label-md": ["12px", { "lineHeight": "16px", "fontWeight": "600" }],
+          "label-lg": ["14px", { "lineHeight": "20px", "fontWeight": "600" }],
+          "headline-lg": ["32px", { "lineHeight": "40px", "fontWeight": "700" }],
+          "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+          "display-lg": ["44px", { "lineHeight": "52px", "fontWeight": "700" }],
+          "headline-lg-mobile": ["26px", { "lineHeight": "34px", "fontWeight": "700" }],
+          "headline-sm": ["18px", { "lineHeight": "24px", "fontWeight": "600" }],
+          "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }],
+          "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }],
+          "headline-md": ["22px", { "lineHeight": "28px", "fontWeight": "600" }],
+          "display-lg-mobile": ["34px", { "lineHeight": "42px", "fontWeight": "700" }],
+          "label-sm": ["10px", { "lineHeight": "14px", "fontWeight": "500" }]
+        }
+      }
+    }
+  }
+</script><style>@layer base { html, body { width: 100%; margin: 0; padding: 0; min-height: 100%; } body { overscroll-behavior-y: none; } .pb-safe { padding-bottom: env(safe-area-inset-bottom, 0px); } .pt-safe { padding-top: env(safe-area-inset-top, 0px); } } ::-webkit-scrollbar { display: none; }</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head><body class="bg-[#121318] font-body-md text-body-md text-[#e3e1e9] antialiased flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 bg-[#121318]/90 backdrop-blur-xl border-b border-[#2e303e]/40 shadow-[0_1px_12px_rgba(0,0,0,0.5)] pt-safe"><div class="flex flex-col h-24 justify-between"><div class="h-6 px-margin flex items-center justify-between text-[#9ca3af] font-label-sm text-label-sm select-none"><span class="font-medium tracking-tight text-[#e3e1e9]">09:41</span><div class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[16px]">wifi</span><span class="material-symbols-outlined text-[16px]">signal_cellular_alt</span><span class="material-symbols-outlined text-[18px]">battery_full</span></div></div><div class="h-18 px-margin pb-1 flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0 flex-1"><img alt="Rutina App Icon" class="h-8 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida/ALJJyrBIcMSM8L58JyZcW2-lraDQWJe3lVrV-gfYEJVwfaoJK5nAAgICSholCOQJWs66VdwgOCL1QUNzE1p3fS0vKzpvXzziCsYTit3za9oSYqlrSChUFgVgZv3xhS5Ny-AhWTjSJ9pM4Zj_kQ3Ft8c3avsgVyN-Oszfzl8saisEEIKt8ascG7AUvp7ZaTnlrhZJ8uqyJ15VjD2P_kfu1-Yojr9UsBysjTktgrY_-p-RZEs"/><div class="flex flex-col min-w-0"><span class="font-label-sm text-label-sm text-[#818cf8] font-semibold uppercase tracking-wider leading-none">Rutina</span><h1 class="font-headline-sm text-[#f1f2fc] truncate leading-tight font-bold">Hari Ini</h1></div></div><div class="flex items-center gap-space-xs flex-shrink-0"><button aria-label="Cari tugas" class="w-11 h-11 flex items-center justify-center rounded-full text-[#c5c6d3] hover:bg-[#272933] transition-colors"><span class="material-symbols-outlined text-[24px]">search</span></button><button aria-label="Profil pengguna" class="w-11 h-11 flex items-center justify-center rounded-full hover:bg-[#272933] transition-colors"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-1 ring-[#454650]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9F70oloTGQzbtx617wv7kHrMGw7IC_d8R7E3BJ_1qQuCS5f8SHxR30sLeDo_oNbr3Ou-Uv75DQzX1zrI3d1iotm2SEH28JRMUqBrvLEl0WJe_pzlNyW0VcYVnRyhLksktX7vEyZijVQLKwa2oL8EZRNhIguBa_eSZY3ao7bwID0WQdnhDdTbVz6nLhXLilT0uHZgbn-TupsrOByACegp6eb4C5piuHJeuEJPTaw"/></button></div></div></div></header><main class="flex flex-col relative w-full pt-24 pb-28 bg-[#121318] px-margin min-h-screen"><div class="flex flex-col w-full pb-16">
+<!-- Offline Status Pill -->
+<div class="flex items-center justify-between bg-[#1d1e26] border border-[#2e303e]/60 px-space-md py-space-xs rounded-full shadow-sm mb-space-md">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="flex h-2 w-2 relative flex-shrink-0">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#f9bd22] opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-[#f9bd22]"></span>
+</span>
+<span class="font-label-sm text-label-sm text-[#9ca3af] truncate">
+        Mode Offline Aktif • Disimpan di Perangkat
+      </span>
+</div>
+<span class="material-symbols-outlined text-[16px] text-[#9ca3af] flex-shrink-0">cloud_off</span>
+</div>
+<!-- Today Summary Progress Card -->
+<div class="relative overflow-hidden bg-gradient-to-br from-[#312e81] via-[#242168] to-[#1e1b4b] border border-[#4338ca]/30 text-white rounded-xl p-space-md shadow-xl mb-space-lg">
+<div class="relative z-10 flex items-center justify-between gap-space-md">
+<div class="flex flex-col min-w-0 flex-1">
+<div class="flex items-center gap-1.5 mb-1">
+<span class="material-symbols-outlined text-[18px] text-[#c7d2fe]">calendar_today</span>
+<span class="font-label-md text-label-md uppercase tracking-wider text-[#c7d2fe] font-semibold">Kamis, 20 Nov 2026</span>
+</div>
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile font-bold tracking-tight text-white mb-1">
+          Fokus Hari Ini
+        </h2>
+<p class="font-body-sm text-body-sm text-[#c7d2fe]/90 leading-relaxed">
+          3 dari 5 tugas selesai hari ini. Pertahankan ritmemu!
+        </p>
+</div>
+<!-- Circular Progress Ring (60%) -->
+<div class="relative flex items-center justify-center flex-shrink-0 w-16 h-16">
+<svg class="w-16 h-16 transform -rotate-90" viewbox="0 0 64 64">
+<circle class="text-[#1e1b4b] stroke-current opacity-60" cx="32" cy="32" fill="none" r="26" stroke-width="5"></circle>
+<circle class="text-[#818cf8] transition-all duration-700 ease-out" cx="32" cy="32" fill="none" r="26" stroke="currentColor" stroke-dasharray="163.36" stroke-dashoffset="65.34" stroke-linecap="round" stroke-width="5"></circle>
+</svg>
+<div class="absolute inset-0 flex flex-col items-center justify-center text-center">
+<span class="font-headline-sm text-headline-sm font-bold leading-none text-white">60%</span>
+</div>
+</div>
+</div>
+<!-- Expressive Ambient Shimmer Shapes -->
+<div class="absolute -right-6 -bottom-8 w-32 h-32 rounded-full bg-[#6366f1] opacity-30 blur-2xl pointer-events-none"></div>
+<div class="absolute -left-6 -top-8 w-28 h-28 rounded-full bg-[#56edb0] opacity-15 blur-2xl pointer-events-none"></div>
+</div>
+<!-- Section: Tugas Perlu Diselesaikan -->
+<div class="flex flex-col mb-space-lg">
+<div class="flex items-center justify-between mb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[20px] text-[#818cf8]">pending_actions</span>
+<h3 class="font-headline-sm text-headline-sm text-[#f1f2fc] font-semibold">Belum Selesai</h3>
+</div>
+<span class="font-label-md text-label-md px-2.5 py-0.5 rounded-full bg-[#272933] text-[#c5c6d3] border border-[#2e303e] font-medium">2 tersisa</span>
+</div>
+<div class="flex flex-col gap-space-sm">
+<!-- Task 1: Olahraga Pagi -->
+<div class="group relative flex items-start gap-space-md p-space-md rounded-xl bg-[#1e1f28] border border-[#2e303e] shadow-sm transition-all duration-200 hover:shadow-md hover:bg-[#252632]">
+<div class="pt-0.5">
+<button aria-label="Tandai Olahraga Pagi selesai" class="w-6 h-6 rounded-lg bg-[#272933] border border-[#454650] flex items-center justify-center transition-all duration-150 text-transparent active:scale-90" onclick="toggleTask(this)" type="button">
+<span class="material-symbols-outlined text-[18px] opacity-0 group-[.is-done]:opacity-100 font-bold transition-opacity">check</span>
+</button>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<div class="flex items-center justify-between gap-space-xs mb-1">
+<span class="font-headline-sm text-base text-[#e2e2ec] font-semibold truncate group-[.is-done]:line-through group-[.is-done]:text-[#6b7280]">
+              Olahraga Pagi &amp; Stretching
+            </span>
+<span class="w-2.5 h-2.5 rounded-full bg-[#818cf8] flex-shrink-0" title="Kategori: Kebugaran"></span>
+</div>
+<div class="flex flex-wrap items-center gap-space-xs mt-1">
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-[#272933] text-[#c7d2fe] border border-[#3b3d4f] font-medium">
+<span class="material-symbols-outlined text-[13px]">event_repeat</span>
+              Setiap Sen, Rab, Jum
+            </span>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-[#181920] text-[#9ca3af]">
+<span class="material-symbols-outlined text-[13px]">alarm</span>
+              06:30
+            </span>
+</div>
+</div>
+</div>
+<!-- Task 2: Laporan Mingguan Sprint -->
+<div class="group relative flex items-start gap-space-md p-space-md rounded-xl bg-[#1e1f28] border border-[#2e303e] shadow-sm transition-all duration-200 hover:shadow-md hover:bg-[#252632]">
+<div class="pt-0.5">
+<button aria-label="Tandai Laporan Mingguan selesai" class="w-6 h-6 rounded-lg bg-[#272933] border border-[#454650] flex items-center justify-center transition-all duration-150 text-transparent active:scale-90" onclick="toggleTask(this)" type="button">
+<span class="material-symbols-outlined text-[18px] opacity-0 group-[.is-done]:opacity-100 font-bold transition-opacity">check</span>
+</button>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<div class="flex items-center justify-between gap-space-xs mb-1">
+<span class="font-headline-sm text-base text-[#e2e2ec] font-semibold truncate group-[.is-done]:line-through group-[.is-done]:text-[#6b7280]">
+              Laporan Mingguan Sprint
+            </span>
+<span class="inline-flex items-center gap-0.5 font-label-sm text-label-sm text-[#ffb4ab] font-medium flex-shrink-0">
+<span class="material-symbols-outlined text-[14px]">flag</span>
+              Prioritas
+            </span>
+</div>
+<div class="flex flex-wrap items-center gap-space-xs mt-1">
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-[#392e10] text-[#f9bd22] border border-[#5c4300] font-medium">
+<span class="material-symbols-outlined text-[13px]">schedule</span>
+              Sekali (Jatuh tempo hari ini)
+            </span>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-[#181920] text-[#9ca3af]">
+<span class="material-symbols-outlined text-[13px]">alarm</span>
+              14:00
+            </span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Section: Tugas Selesai (Accordion) -->
+<div class="flex flex-col">
+<button class="flex items-center justify-between w-full py-space-sm text-left group select-none" onclick="toggleCompletedSection()" type="button">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[20px] text-[#56edb0]">task_alt</span>
+<h3 class="font-headline-sm text-headline-sm text-[#f1f2fc] font-semibold">Selesai Hari Ini (3)</h3>
+</div>
+<div class="w-8 h-8 rounded-full flex items-center justify-center text-[#c5c6d3] bg-[#1e1f28] border border-[#2e303e] transition-transform duration-200" id="completedChevron">
+<span class="material-symbols-outlined text-[20px]">expand_more</span>
+</div>
+</button>
+<div class="flex flex-col gap-space-sm pt-space-xs transition-all duration-300" id="completedList">
+<!-- Completed 1 -->
+<div class="flex items-start gap-space-md p-space-md rounded-xl bg-[#1a1b22] border border-[#2e303e]/60 opacity-85">
+<div class="pt-0.5">
+<div class="w-6 h-6 rounded-lg bg-[#005439] text-[#68fcbf] flex items-center justify-center shadow-xs">
+<span class="material-symbols-outlined text-[18px] font-bold">check</span>
+</div>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<span class="font-body-md text-body-md text-[#6b7280] line-through truncate font-medium">
+            Minum 2L Air
+          </span>
+<div class="flex items-center gap-space-xs mt-1">
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-[#272933] text-[#9ca3af]">
+<span class="material-symbols-outlined text-[12px]">replay</span>
+              Setiap Hari
+            </span>
+<span class="font-label-sm text-label-sm text-[#6b7280]">Selesai 08:15</span>
+</div>
+</div>
+</div>
+<!-- Completed 2 -->
+<div class="flex items-start gap-space-md p-space-md rounded-xl bg-[#1a1b22] border border-[#2e303e]/60 opacity-85">
+<div class="pt-0.5">
+<div class="w-6 h-6 rounded-lg bg-[#005439] text-[#68fcbf] flex items-center justify-center shadow-xs">
+<span class="material-symbols-outlined text-[18px] font-bold">check</span>
+</div>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<span class="font-body-md text-body-md text-[#6b7280] line-through truncate font-medium">
+            Review PR &amp; Code Merge
+          </span>
+<div class="flex items-center gap-space-xs mt-1">
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-[#272933] text-[#9ca3af]">
+<span class="material-symbols-outlined text-[12px]">calendar_view_week</span>
+              Tiap Hari Kerja
+            </span>
+<span class="font-label-sm text-label-sm text-[#6b7280]">Selesai 10:40</span>
+</div>
+</div>
+</div>
+<!-- Completed 3 -->
+<div class="flex items-start gap-space-md p-space-md rounded-xl bg-[#1a1b22] border border-[#2e303e]/60 opacity-85">
+<div class="pt-0.5">
+<div class="w-6 h-6 rounded-lg bg-[#005439] text-[#68fcbf] flex items-center justify-center shadow-xs">
+<span class="material-symbols-outlined text-[18px] font-bold">check</span>
+</div>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<span class="font-body-md text-body-md text-[#6b7280] line-through truncate font-medium">
+            Beri Makan Kucing
+          </span>
+<div class="flex items-center gap-space-xs mt-1">
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-[#272933] text-[#9ca3af]">
+<span class="material-symbols-outlined text-[12px]">timelapse</span>
+              Tiap 12 Jam
+            </span>
+<span class="font-label-sm text-label-sm text-[#6b7280]">Selesai 07:00</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Extended Material 3 Floating Action Button -->
+<div class="sticky bottom-4 self-end z-30 mt-space-lg">
+<button aria-label="Tambah tugas baru" class="flex items-center gap-2 h-14 pl-4 pr-5 rounded-full bg-[#6366f1] text-white shadow-[0_8px_20px_rgba(99,102,241,0.35)] hover:bg-[#4f46e5] hover:shadow-[0_10px_25px_rgba(99,102,241,0.45)] transition-all duration-200 active:scale-95 group" type="button">
+<span class="material-symbols-outlined text-[24px] text-white transition-transform duration-200 group-hover:rotate-90">add</span>
+<span class="font-label-lg text-label-lg font-semibold tracking-wide text-white">Tambah Tugas</span>
+</button>
+</div>
+</div>
+<script>
+  function toggleCompletedSection() {
+    const list = document.getElementById('completedList');
+    const chevron = document.getElementById('completedChevron');
+    if (!list || !chevron) return;
+    
+    const isHidden = list.classList.contains('hidden');
+    if (isHidden) {
+      list.classList.remove('hidden');
+      chevron.classList.remove('-rotate-90');
+    } else {
+      list.classList.add('hidden');
+      chevron.classList.add('-rotate-90');
+    }
+  }
+
+  function toggleTask(button) {
+    const card = button.closest('.group');
+    if (!card) return;
+    
+    const isDone = card.classList.toggle('is-done');
+    if (isDone) {
+      button.classList.remove('bg-[#272933]', 'border-[#454650]', 'text-transparent');
+      button.classList.add('bg-[#005439]', 'border-[#005439]', 'text-[#68fcbf]');
+    } else {
+      button.classList.add('bg-[#272933]', 'border-[#454650]', 'text-transparent');
+      button.classList.remove('bg-[#005439]', 'border-[#005439]', 'text-[#68fcbf]');
+    }
+  }
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-[#121318]/95 backdrop-blur-xl border-t border-[#2e303e]/50 shadow-[0_-2px_16px_rgba(0,0,0,0.6)]" data-active-classes="[&amp;_[data-indicator]]:bg-[#3730a3] [&amp;_[data-indicator]]:text-[#c7d2fe] [&amp;_[data-label]]:text-[#f1f2fc] [&amp;_[data-label]]:font-bold"><div class="h-20 px-space-xs flex items-center justify-around"><a aria-current="page" class="group flex flex-col items-center justify-center gap-1 flex-1 py-1 text-[#9ca3af] min-h-[44px] [&amp;_[data-indicator]]:bg-[#3730a3] [&amp;_[data-indicator]]:text-[#c7d2fe] [&amp;_[data-label]]:text-[#f1f2fc] [&amp;_[data-label]]:font-bold" data-path="hari-ini" href="#"><div class="w-16 h-8 rounded-full flex items-center justify-center transition-all duration-200 group-hover:bg-[#272933]" data-indicator="true"><span class="material-symbols-outlined text-[24px]">event_available</span></div><span class="font-label-md text-label-md tracking-tight leading-none" data-label="true">Hari Ini</span></a><a class="group flex flex-col items-center justify-center gap-1 flex-1 py-1 text-[#9ca3af] min-h-[44px]" data-path="mendatang" href="#"><div class="w-16 h-8 rounded-full flex items-center justify-center transition-all duration-200 group-hover:bg-[#272933]" data-indicator="true"><span class="material-symbols-outlined text-[24px]">calendar_month</span></div><span class="font-label-md text-label-md tracking-tight leading-none" data-label="true">Mendatang</span></a><a class="group flex flex-col items-center justify-center gap-1 flex-1 py-1 text-[#9ca3af] min-h-[44px]" data-path="semua-tugas" href="#"><div class="w-16 h-8 rounded-full flex items-center justify-center transition-all duration-200 group-hover:bg-[#272933]" data-indicator="true"><span class="material-symbols-outlined text-[24px]">checklist_rtl</span></div><span class="font-label-md text-label-md tracking-tight leading-none" data-label="true">Semua Tugas</span></a><a class="group flex flex-col items-center justify-center gap-1 flex-1 py-1 text-[#9ca3af] min-h-[44px]" data-path="widget-and-info" href="#"><div class="w-16 h-8 rounded-full flex items-center justify-center transition-all duration-200 group-hover:bg-[#272933]" data-indicator="true"><span class="material-symbols-outlined text-[24px]">widgets</span></div><span class="font-label-md text-label-md tracking-tight leading-none" data-label="true">Widget &amp; Info</span></a></div><div class="h-4 flex items-center justify-center select-none"><div class="w-28 h-1 rounded-full bg-[#e3e1e9]/20"></div></div></nav></body></html>

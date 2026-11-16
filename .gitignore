@@ -1,0 +1,35 @@
+# Built application packages
+*.apk
+*.aab
+
+# Local configuration
+local.properties
+/local.properties
+
+# Gradle & Kotlin caches
+.gradle/
+.kotlin/
+/build/
+/*/build/
+
+# Android Studio / IntelliJ IDEA
+*.iml
+.idea/
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# Captures and NDK
+/captures
+.externalNativeBuild
+.cxx
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Agent tool configurations
+.agents/

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Deep Royal Indigo Base Gradient -->
+    <path
+        android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="108"
+                android:endY="108"
+                android:type="linear">
+                <item android:color="#4338CA" android:offset="0.0" />
+                <item android:color="#312E81" android:offset="0.55" />
+                <item android:color="#1E1B4B" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Subtle Radial Glow in Center/Upper-Right -->
+    <path
+        android:pathData="M54,54m-46,0a46,46 0 1,1 92,0a46,46 0 1,1 -92,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="68"
+                android:centerY="40"
+                android:gradientRadius="48"
+                android:type="radial">
+                <item android:color="#356366F1" android:offset="0.0" />
+                <item android:color="#184F46E5" android:offset="0.6" />
+                <item android:color="#001E1B4B" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Warm Amber Ambient Glow behind the rhythm head -->
+    <path
+        android:pathData="M54,54m-30,0a30,30 0 1,1 60,0a30,30 0 1,1 -60,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="72"
+                android:centerY="36"
+                android:gradientRadius="30"
+                android:type="radial">
+                <item android:color="#28FEA619" android:offset="0.0" />
+                <item android:color="#00FEA619" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>

@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+
+<html class="h-full dark" lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;family=Roboto+Flex:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      "colors": {
+        "tertiary": "#56edb0",
+        "surface-container-highest": "#34343a",
+        "surface-tint": "#b8c4ff",
+        "background": "#121318",
+        "on-background": "#e3e1e9",
+        "on-error-container": "#ffdad6",
+        "error": "#ffb4ab",
+        "outline-variant": "#454650",
+        "on-primary-container": "#354484",
+        "secondary": "#ffc640",
+        "on-secondary-fixed-variant": "#5c4300",
+        "primary": "#c9d1ff",
+        "error-container": "#93000a",
+        "on-primary-fixed-variant": "#334282",
+        "surface": "#121318",
+        "surface-container-lowest": "#0d0e13",
+        "on-primary-fixed": "#001354",
+        "inverse-primary": "#4b5a9c",
+        "secondary-fixed": "#ffdf9f",
+        "primary-fixed-dim": "#b8c4ff",
+        "surface-container-high": "#292a2f",
+        "surface-container-low": "#1a1b20",
+        "on-secondary-fixed": "#261a00",
+        "surface-bright": "#38393e",
+        "secondary-container": "#e3aa00",
+        "on-primary": "#1a2b6a",
+        "tertiary-fixed-dim": "#45dfa4",
+        "inverse-on-surface": "#2f3036",
+        "surface-container": "#1e1f25",
+        "outline": "#8f909b",
+        "tertiary-container": "#2fd096",
+        "surface-dim": "#121318",
+        "on-secondary-container": "#5a4100",
+        "inverse-surface": "#e3e1e9",
+        "secondary-fixed-dim": "#f9bd22",
+        "primary-container": "#a5b4fc",
+        "on-secondary": "#402d00",
+        "tertiary-fixed": "#68fcbf",
+        "on-tertiary": "#003825",
+        "on-error": "#690005",
+        "on-surface": "#e3e1e9",
+        "on-surface-variant": "#c6c5d2",
+        "on-tertiary-fixed": "#002114",
+        "primary-fixed": "#dde1ff",
+        "on-tertiary-container": "#005439",
+        "on-tertiary-fixed-variant": "#005137",
+        "surface-variant": "#34343a"
+      },
+      "borderRadius": {
+        "DEFAULT": "0.25rem",
+        "lg": "0.5rem",
+        "xl": "0.75rem",
+        "full": "9999px"
+      },
+      "spacing": {
+        "gutter": "1rem",
+        "margin-tablet": "1.5rem",
+        "space-xs": "0.25rem",
+        "space-xl": "2rem",
+        "gutter-sm": "0.75rem",
+        "margin": "1rem",
+        "margin-desktop": "2.5rem",
+        "space-sm": "0.5rem",
+        "space-md": "1rem",
+        "space-lg": "1.5rem"
+      },
+      "fontFamily": {
+        "headline-lg": ["Plus Jakarta Sans"],
+        "body-md": ["Plus Jakarta Sans"],
+        "label-sm": ["Space Grotesk"],
+        "headline-md": ["Plus Jakarta Sans"],
+        "headline-sm": ["Plus Jakarta Sans"],
+        "label-md": ["Space Grotesk"],
+        "body-sm": ["Plus Jakarta Sans"],
+        "headline-lg-mobile": ["Plus Jakarta Sans"],
+        "label-lg": ["Space Grotesk"],
+        "body-lg": ["Plus Jakarta Sans"]
+      },
+      "fontSize": {
+        "headline-lg": ["32px", { "lineHeight": "40px", "fontWeight": "700" }],
+        "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }],
+        "label-sm": ["10px", { "lineHeight": "14px", "fontWeight": "500" }],
+        "headline-md": ["22px", { "lineHeight": "28px", "fontWeight": "600" }],
+        "headline-sm": ["18px", { "lineHeight": "24px", "fontWeight": "600" }],
+        "label-md": ["12px", { "lineHeight": "16px", "fontWeight": "600" }],
+        "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }],
+        "headline-lg-mobile": ["26px", { "lineHeight": "34px", "fontWeight": "700" }],
+        "label-lg": ["14px", { "lineHeight": "20px", "fontWeight": "600" }],
+        "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }]
+      }
+    }
+  }
+}</script><style>@layer base { html, body { width: 100%; margin: 0; padding: 0; min-height: 100%; } body { overscroll-behavior-y: none; } .pb-safe { padding-bottom: env(safe-area-inset-bottom, 0px); } .pt-safe { padding-top: env(safe-area-inset-top, 0px); } } ::-webkit-scrollbar { display: none; }</style></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 bg-[#121318]/90 backdrop-blur-xl border-b border-[#292a2f]/80 pt-safe"><div class="flex flex-col h-24 justify-between"><div class="h-6 px-margin flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm select-none"><span class="font-medium tracking-tight text-on-surface">09:41</span><div class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[16px]">wifi</span><span class="material-symbols-outlined text-[16px]">signal_cellular_alt</span><span class="material-symbols-outlined text-[18px]">battery_full</span></div></div><div class="h-18 px-margin pb-1 flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0 flex-1"><img alt="Rutina App Icon" class="h-8 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida/ALJJyrBIcMSM8L58JyZcW2-lraDQWJe3lVrV-gfYEJVwfaoJK5nAAgICSholCOQJWs66VdwgOCL1QUNzE1p3fS0vKzpvXzziCsYTit3za9oSYqlrSChUFgVgZv3xhS5Ny-AhWTjSJ9pM4Zj_kQ3Ft8c3avsgVyN-Oszfzl8saisEEIKt8ascG7AUvp7ZaTnlrhZJ8uqyJ15VjD2P_kfu1-Yojr9UsBysjTktgrY_-p-RZEs"/><div class="flex flex-col min-w-0"><span class="font-label-sm text-label-sm text-primary font-semibold uppercase tracking-wider leading-none">Rutina</span><h1 class="font-headline-sm text-headline-sm text-on-surface truncate leading-tight">Widget And Info</h1></div></div><div class="flex items-center gap-space-xs flex-shrink-0"><button aria-label="Cari tugas" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:bg-surface-container-high transition-colors"><span class="material-symbols-outlined text-[24px]">search</span></button><button aria-label="Profil pengguna" class="w-11 h-11 flex items-center justify-center rounded-full hover:bg-surface-container-high transition-colors"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-1 ring-outline-variant/50" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9F70oloTGQzbtx617wv7kHrMGw7IC_d8R7E3BJ_1qQuCS5f8SHxR30sLeDo_oNbr3Ou-Uv75DQzX1zrI3d1iotm2SEH28JRMUqBrvLEl0WJe_pzlNyW0VcYVnRyhLksktX7vEyZijVQLKwa2oL8EZRNhIguBa_eSZY3ao7bwID0WQdnhDdTbVz6nLhXLilT0uHZgbn-TupsrOByACegp6eb4C5piuHJeuEJPTaw"/></button></div></div></div></header><main class="flex flex-col relative w-full pt-24 pb-28 bg-[#121318] px-margin min-h-screen"><div class="flex flex-col w-full gap-space-lg pb-space-xl">
+<!-- Header Showcase Introduction -->
+<section class="flex flex-col gap-space-xs">
+<div class="inline-flex items-center gap-1.5 self-start px-space-sm py-1 rounded-full bg-surface-container-high border border-outline-variant/30 text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px] text-tertiary" style="font-variation-settings: 'FILL' 1;">widgets</span>
+<span>Jetpack Glance Preview</span>
+</div>
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface tracking-tight">Widget Layar Utama Android (Glance Widget)</h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">Akses cepat dan centang tugas harian langsung dari home screen ponsel Anda tanpa harus membuka aplikasi.</p>
+</section>
+<!-- Phone Wallpaper & Interactive Glance Widget Canvas (Modern Dark Aesthetic) -->
+<section class="relative w-full rounded-2xl overflow-hidden border border-[#2d303e] shadow-2xl p-space-md flex flex-col justify-center min-h-[380px] select-none" data-alt="Dark modern smartphone abstract wallpaper with deep indigo cosmic gradients, obsidian shapes, and subtle neon glows" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA3wG45DkQeYh8K4r1bWw3F5N2uG3XQxK7aG7A9m-q4oJ8X1R5P0L2N4C6Y8Z9X0W1V2U3T4S5R6Q7P8O9N0M1L2K3J4I5H6G7F8E9D0C1B2A3'); background-color: #0b0d14; background-size: cover; background-position: center;">
+<!-- Ambient Wallpaper Scrim / Overlay for legibility in dark mode -->
+<div class="absolute inset-0 bg-gradient-to-b from-[#090b11]/85 via-[#0e101a]/75 to-[#090b11]/90 backdrop-blur-[1px]"></div>
+<!-- Phone Status Mock Indicator overlay -->
+<div class="relative z-10 flex items-center justify-between text-on-surface-variant text-label-sm font-label-sm mb-space-sm px-1">
+<span class="font-medium drop-shadow-sm text-on-surface">09:41</span>
+<div class="flex items-center gap-1 drop-shadow-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[14px]">signal_cellular_4_bar</span>
+<span class="material-symbols-outlined text-[14px]">wifi</span>
+<span class="material-symbols-outlined text-[14px]">battery_5_bar</span>
+</div>
+</div>
+<!-- M3 Glance Widget (4x2 Container) - Dark Material You widget surface -->
+<div class="relative z-10 w-full bg-[#1e2029]/95 backdrop-blur-xl rounded-xl border border-[#383b4b] shadow-xl p-space-md flex flex-col gap-space-sm transition-all duration-300" id="glance-widget-card">
+<!-- Widget Header -->
+<div class="flex items-center justify-between pb-space-xs border-b border-[#2d303e]">
+<div class="flex items-center gap-space-xs min-w-0">
+<img alt="Rutina App Icon" class="w-6 h-6 rounded-lg object-contain shadow-xs flex-shrink-0" src="https://lh3.googleusercontent.com/aida/ALJJyrBIcMSM8L58JyZcW2-lraDQWJe3lVrV-gfYEJVwfaoJK5nAAgICSholCOQJWs66VdwgOCL1QUNzE1p3fS0vKzpvXzziCsYTit3za9oSYqlrSChUFgVgZv3xhS5Ny-AhWTjSJ9pM4Zj_kQ3Ft8c3avsgVyN-Oszfzl8saisEEIKt8ascG7AUvp7ZaTnlrhZJ8uqyJ15VjD2P_kfu1-Yojr9UsBysjTktgrY_-p-RZEs"/>
+<div class="flex items-center gap-1.5 min-w-0">
+<span class="material-symbols-outlined text-primary text-[18px]">calendar_today</span>
+<span class="font-label-lg text-label-lg text-white font-semibold truncate">Hari Ini, 20 Nov</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs flex-shrink-0">
+<span class="px-2.5 py-0.5 rounded-full bg-[#f59e0b]/20 text-[#ffc640] border border-[#f59e0b]/40 font-label-sm text-label-sm font-semibold shadow-xs" id="widget-badge">
+            2/4 Selesai
+          </span>
+<button aria-label="Sinkronkan DB Lokal" class="w-7 h-7 flex items-center justify-center rounded-full text-on-surface-variant hover:text-white hover:bg-surface-container-highest transition-transform active:rotate-180" id="widget-sync-btn">
+<span class="material-symbols-outlined text-[18px]">sync</span>
+</button>
+</div>
+</div>
+<!-- Widget Task List (Glance Tap Targets) -->
+<div class="flex flex-col gap-1.5 py-0.5 max-h-[190px] overflow-y-auto" id="widget-task-stream">
+<!-- Task Item 1 (Uncompleted) -->
+<label class="group flex items-center gap-space-sm p-space-xs rounded-lg hover:bg-surface-container-highest/60 active:bg-surface-container-highest cursor-pointer transition-colors">
+<input class="task-check peer sr-only" data-title="Olahraga Pagi &amp; Stretching" type="checkbox"/>
+<div class="w-5 h-5 rounded flex items-center justify-center bg-[#292a34] border border-[#454650] text-[#121318] peer-checked:bg-[#56edb0] peer-checked:border-[#56edb0] peer-checked:text-[#003825] transition-all">
+<span class="material-symbols-outlined text-[16px] opacity-0 peer-checked:opacity-100 font-bold transition-opacity">check</span>
+</div>
+<div class="flex flex-col min-w-0 flex-1">
+<span class="font-label-lg text-label-lg text-white peer-checked:line-through peer-checked:text-on-surface-variant truncate">Olahraga Pagi &amp; Stretching</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px] text-primary">schedule</span> 06:30 • Rutinitas
+            </span>
+</div>
+<span class="material-symbols-outlined text-[18px] text-outline opacity-0 group-hover:opacity-100 transition-opacity">chevron_right</span>
+</label>
+<!-- Task Item 2 (Uncompleted) -->
+<label class="group flex items-center gap-space-sm p-space-xs rounded-lg hover:bg-surface-container-highest/60 active:bg-surface-container-highest cursor-pointer transition-colors">
+<input class="task-check peer sr-only" data-title="Laporan Mingguan Sprint" type="checkbox"/>
+<div class="w-5 h-5 rounded flex items-center justify-center bg-[#292a34] border border-[#454650] text-[#121318] peer-checked:bg-[#56edb0] peer-checked:border-[#56edb0] peer-checked:text-[#003825] transition-all">
+<span class="material-symbols-outlined text-[16px] opacity-0 peer-checked:opacity-100 font-bold transition-opacity">check</span>
+</div>
+<div class="flex flex-col min-w-0 flex-1">
+<span class="font-label-lg text-label-lg text-white peer-checked:line-through peer-checked:text-on-surface-variant truncate">Laporan Mingguan Sprint</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px] text-secondary">flag</span> 14:00 • Sekali
+            </span>
+</div>
+<span class="material-symbols-outlined text-[18px] text-outline opacity-0 group-hover:opacity-100 transition-opacity">chevron_right</span>
+</label>
+<!-- Task Item 3 (Completed) -->
+<label class="completed-task group flex items-center gap-space-sm p-space-xs rounded-lg hover:bg-surface-container-highest/60 active:bg-surface-container-highest cursor-pointer transition-colors">
+<input checked="" class="task-check peer sr-only" data-title="Minum 2L Air" type="checkbox"/>
+<div class="w-5 h-5 rounded flex items-center justify-center bg-[#56edb0] border border-[#56edb0] text-[#003825] peer-checked:bg-[#56edb0] peer-checked:border-[#56edb0] peer-checked:text-[#003825] transition-all">
+<span class="material-symbols-outlined text-[16px] opacity-100 peer-checked:opacity-100 font-bold transition-opacity">check</span>
+</div>
+<div class="flex flex-col min-w-0 flex-1">
+<span class="font-label-lg text-label-lg text-on-surface-variant line-through peer-checked:line-through truncate">Minum 2L Air</span>
+<span class="font-body-sm text-body-sm text-tertiary flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">done_all</span> Selesai
+            </span>
+</div>
+<span class="material-symbols-outlined text-[18px] text-outline opacity-0 group-hover:opacity-100 transition-opacity">chevron_right</span>
+</label>
+<!-- Task Item 4 (Completed) -->
+<label class="completed-task group flex items-center gap-space-sm p-space-xs rounded-lg hover:bg-surface-container-highest/60 active:bg-surface-container-highest cursor-pointer transition-colors">
+<input checked="" class="task-check peer sr-only" data-title="Review PR &amp; Code Merge" type="checkbox"/>
+<div class="w-5 h-5 rounded flex items-center justify-center bg-[#56edb0] border border-[#56edb0] text-[#003825] peer-checked:bg-[#56edb0] peer-checked:border-[#56edb0] peer-checked:text-[#003825] transition-all">
+<span class="material-symbols-outlined text-[16px] opacity-100 peer-checked:opacity-100 font-bold transition-opacity">check</span>
+</div>
+<div class="flex flex-col min-w-0 flex-1">
+<span class="font-label-lg text-label-lg text-on-surface-variant line-through peer-checked:line-through truncate">Review PR &amp; Code Merge</span>
+<span class="font-body-sm text-body-sm text-tertiary flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">done_all</span> Selesai
+            </span>
+</div>
+<span class="material-symbols-outlined text-[18px] text-outline opacity-0 group-hover:opacity-100 transition-opacity">chevron_right</span>
+</label>
+</div>
+<!-- Widget Footer Action Rows -->
+<div class="flex items-center justify-between pt-space-xs gap-space-xs border-t border-[#2d303e]">
+<button class="flex items-center gap-1 px-3 py-1.5 rounded-full bg-[#6366f1] hover:bg-[#4f46e5] text-white font-label-md text-label-md shadow-xs active:scale-95 transition-transform" id="quick-add-btn">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>+ Tambah Tugas Cepat</span>
+</button>
+<a class="font-label-md text-label-md text-primary hover:text-white font-medium flex items-center gap-0.5 active:opacity-75 transition-colors" href="#">
+<span>Buka Rutina App</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Wallpaper Desktop Icons Mockup below widget for realistic Glance context -->
+<div class="relative z-10 flex items-center justify-around mt-space-md pt-space-xs text-on-surface">
+<div class="flex flex-col items-center gap-1">
+<div class="w-11 h-11 rounded-2xl bg-[#1e2029]/80 border border-[#383b4b]/60 backdrop-blur-md flex items-center justify-center text-primary shadow-sm">
+<span class="material-symbols-outlined text-[24px]">call</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant drop-shadow">Telepon</span>
+</div>
+<div class="flex flex-col items-center gap-1">
+<div class="w-11 h-11 rounded-2xl bg-[#1e2029]/80 border border-[#383b4b]/60 backdrop-blur-md flex items-center justify-center text-secondary shadow-sm">
+<span class="material-symbols-outlined text-[24px]">chat</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant drop-shadow">Pesan</span>
+</div>
+<div class="flex flex-col items-center gap-1">
+<div class="w-11 h-11 rounded-2xl bg-[#1e2029]/80 border border-[#383b4b]/60 backdrop-blur-md flex items-center justify-center text-tertiary shadow-sm">
+<span class="material-symbols-outlined text-[24px]">photo_camera</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant drop-shadow">Kamera</span>
+</div>
+<div class="flex flex-col items-center gap-1">
+<div class="w-11 h-11 rounded-2xl bg-[#1e2029]/80 border border-[#383b4b]/60 backdrop-blur-md flex items-center justify-center text-primary shadow-sm">
+<img alt="Rutina App" class="w-6 h-6 object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrBIcMSM8L58JyZcW2-lraDQWJe3lVrV-gfYEJVwfaoJK5nAAgICSholCOQJWs66VdwgOCL1QUNzE1p3fS0vKzpvXzziCsYTit3za9oSYqlrSChUFgVgZv3xhS5Ny-AhWTjSJ9pM4Zj_kQ3Ft8c3avsgVyN-Oszfzl8saisEEIKt8ascG7AUvp7ZaTnlrhZJ8uqyJ15VjD2P_kfu1-Yojr9UsBysjTktgrY_-p-RZEs"/>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant drop-shadow">Rutina</span>
+</div>
+</div>
+</section>
+<!-- Widget Configuration & Settings Controls Card (Dark container panels #1c1d26) -->
+<section class="flex flex-col gap-space-md bg-[#1c1d26] p-space-md rounded-2xl border border-outline-variant/30 shadow-md">
+<div class="flex items-center gap-space-xs pb-space-xs border-b border-[#292a2f]">
+<span class="material-symbols-outlined text-primary text-[22px]">tune</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Pengaturan Tampilan Widget</h3>
+</div>
+<!-- Toggle: Tampilkan tugas yang sudah selesai -->
+<div class="flex items-center justify-between p-space-sm bg-[#121318] border border-[#292a2f] rounded-xl">
+<div class="flex flex-col min-w-0 pr-space-sm">
+<span class="font-label-lg text-label-lg text-on-surface font-medium">Tampilkan tugas yang sudah selesai</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Tetap tampilkan item yang dicentang hari ini</span>
+</div>
+<label class="relative inline-flex items-center cursor-pointer flex-shrink-0">
+<input checked="" class="sr-only peer" id="toggle-completed" type="checkbox"/>
+<div class="w-11 h-6 bg-[#34343a] peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-[#121318] after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#6366f1]"></div>
+</label>
+</div>
+<!-- Segment: Ukuran Widget -->
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-md text-label-md text-on-surface-variant font-medium">Ukuran Widget Grid</span>
+<div class="grid grid-cols-3 gap-space-xs p-1.5 bg-[#121318] border border-[#292a2f] rounded-xl" id="widget-size-selector">
+<button class="py-2 px-1 text-center rounded-lg text-on-surface-variant font-label-md text-label-md transition-colors hover:text-on-surface hover:bg-[#1e1f25]" data-size="compact" type="button">
+          2x2 Kompak
+        </button>
+<button class="py-2 px-1 text-center rounded-lg bg-[#292a34] text-primary border border-outline-variant/40 font-bold shadow-xs font-label-md text-label-md transition-colors" data-size="standard" type="button">
+          4x2 Standar
+        </button>
+<button class="py-2 px-1 text-center rounded-lg text-on-surface-variant font-label-md text-label-md transition-colors hover:text-on-surface hover:bg-[#1e1f25]" data-size="full" type="button">
+          4x3 Penuh
+        </button>
+</div>
+</div>
+<!-- Theme selection -->
+<div class="flex items-center justify-between p-space-sm bg-[#121318] border border-[#292a2f] rounded-xl">
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-full bg-secondary-container/20 border border-secondary/30 text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">palette</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface font-medium">Ikuti Tema Sistem</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Material You Dynamic Colors (Android 12+)</span>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded-full bg-[#1e2029] border border-outline-variant/40 text-primary font-label-sm text-label-sm font-semibold">Aktif</span>
+</div>
+<!-- Architecture & Offline Explanation Card -->
+<div class="flex items-start gap-space-sm p-space-sm rounded-xl bg-[#1e1f25] border border-[#292a2f] text-on-surface">
+<span class="material-symbols-outlined text-tertiary text-[22px] flex-shrink-0 mt-0.5">bolt</span>
+<div class="flex flex-col gap-0.5">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">Sinkronisasi Instan Tanpa Delay</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Widget dibuat dengan Jetpack Glance, membaca langsung Room DB lokal dengan pembaruan instan saat dicentang.</p>
+</div>
+</div>
+</section>
+<!-- How to Install Widget Step Banner -->
+<section class="flex flex-col gap-space-sm bg-[#1c1d26] rounded-2xl p-space-md border border-outline-variant/30 shadow-xs">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[22px]">touch_app</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Cara Menambahkan ke Home Screen</h3>
+</div>
+<ol class="flex flex-col gap-space-xs list-decimal list-inside font-body-md text-body-md text-on-surface-variant leading-relaxed">
+<li class="pl-1">Tekan dan tahan area kosong di layar utama ponsel Anda.</li>
+<li class="pl-1">Pilih menu <strong class="text-on-surface">Widget</strong> lalu gulir ke aplikasi <strong class="text-on-surface">Rutina</strong>.</li>
+<li class="pl-1">Tahan widget <strong class="text-on-surface">Rutina Glance 4x2</strong> dan letakkan pada posisi yang diinginkan.</li>
+</ol>
+</section>
+<!-- Inline Micro-interactions JavaScript -->
+<script>
+    (function initGlanceShowcase() {
+      const checkboxes = document.querySelectorAll('.task-check');
+      const badge = document.getElementById('widget-badge');
+      const toggleCompleted = document.getElementById('toggle-completed');
+      const completedTasks = document.querySelectorAll('.completed-task');
+      const sizeButtons = document.querySelectorAll('#widget-size-selector button');
+      const taskStream = document.getElementById('widget-task-stream');
+      const syncBtn = document.getElementById('widget-sync-btn');
+      const quickAddBtn = document.getElementById('quick-add-btn');
+
+      // Update widget completed count badge
+      function updateBadge() {
+        const total = checkboxes.length;
+        const done = document.querySelectorAll('.task-check:checked').length;
+        if (badge) {
+          badge.textContent = done + '/' + total + ' Selesai';
+        }
+      }
+
+      checkboxes.forEach((cb) => {
+        cb.addEventListener('change', () => {
+          const checkIcon = cb.parentElement.querySelector('.material-symbols-outlined');
+          const box = cb.nextElementSibling;
+          const textSpan = cb.parentElement.querySelector('span.text-white, span.text-on-surface, span.text-on-surface-variant');
+
+          if (cb.checked) {
+            box.classList.remove('bg-[#292a34]', 'border-[#454650]', 'text-[#121318]');
+            box.classList.add('bg-[#56edb0]', 'border-[#56edb0]', 'text-[#003825]');
+            checkIcon.classList.remove('opacity-0');
+            checkIcon.classList.add('opacity-100');
+            if (textSpan) {
+              textSpan.classList.add('line-through', 'text-on-surface-variant');
+              textSpan.classList.remove('text-white');
+            }
+          } else {
+            box.classList.add('bg-[#292a34]', 'border-[#454650]', 'text-[#121318]');
+            box.classList.remove('bg-[#56edb0]', 'border-[#56edb0]', 'text-[#003825]');
+            checkIcon.classList.add('opacity-0');
+            checkIcon.classList.remove('opacity-100');
+            if (textSpan) {
+              textSpan.classList.remove('line-through', 'text-on-surface-variant');
+              textSpan.classList.add('text-white');
+            }
+          }
+          updateBadge();
+        });
+      });
+
+      // Toggle display completed items
+      if (toggleCompleted) {
+        toggleCompleted.addEventListener('change', (e) => {
+          completedTasks.forEach((el) => {
+            el.style.display = e.target.checked ? 'flex' : 'none';
+          });
+        });
+      }
+
+      // Segment size switcher interactivity
+      sizeButtons.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          sizeButtons.forEach((b) => {
+            b.classList.remove('bg-[#292a34]', 'text-primary', 'border', 'border-outline-variant/40', 'font-bold', 'shadow-xs');
+            b.classList.add('text-on-surface-variant');
+          });
+          btn.classList.add('bg-[#292a34]', 'text-primary', 'border', 'border-outline-variant/40', 'font-bold', 'shadow-xs');
+          btn.classList.remove('text-on-surface-variant');
+
+          const size = btn.getAttribute('data-size');
+          if (size === 'compact') {
+            taskStream.classList.remove('max-h-[190px]', 'max-h-[280px]');
+            taskStream.classList.add('max-h-[96px]');
+          } else if (size === 'full') {
+            taskStream.classList.remove('max-h-[96px]', 'max-h-[190px]');
+            taskStream.classList.add('max-h-[280px]');
+          } else {
+            taskStream.classList.remove('max-h-[96px]', 'max-h-[280px]');
+            taskStream.classList.add('max-h-[190px]');
+          }
+        });
+      });
+
+      // Quick add micro-interaction feedback
+      if (quickAddBtn) {
+        quickAddBtn.addEventListener('click', () => {
+          const originalText = quickAddBtn.innerHTML;
+          quickAddBtn.innerHTML = '<span class="material-symbols-outlined text-[16px]">check_circle</span> <span>Membuka Input...</span>';
+          setTimeout(() => {
+            quickAddBtn.innerHTML = originalText;
+          }, 1200);
+        });
+      }
+
+      // Sync button spin feedback
+      if (syncBtn) {
+        syncBtn.addEventListener('click', () => {
+          syncBtn.classList.add('animate-spin');
+          setTimeout(() => {
+            syncBtn.classList.remove('animate-spin');
+          }, 600);
+        });
+      }
+    })();
+  </script>
+</div></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-[#1a1b20]/95 backdrop-blur-xl border-t border-[#292a2f]" data-active-classes="[&amp;_[data-indicator]]:bg-secondary-container [&amp;_[data-indicator]]:text-on-secondary-container [&amp;_[data-label]]:text-on-surface [&amp;_[data-label]]:font-bold"><div class="h-20 px-space-xs flex items-center justify-around"><a class="group flex flex-col items-center justify-center gap-1 flex-1 py-1 text-on-surface-variant min-h-[44px]" data-path="hari-ini" href="#"><div class="w-16 h-8 rounded-full flex items-center justify-center transition-all duration-200 group-hover:bg-surface-container-highest" data-indicator="true"><span class="material-symbols-outlined text-[24px]">event_available</span></div><span class="font-label-md text-label-md tracking-tight leading-none" data-label="true">Hari Ini</span></a><a class="group flex flex-col items-center justify-center gap-1 flex-1 py-1 text-on-surface-variant min-h-[44px]" data-path="mendatang" href="#"><div class="w-16 h-8 rounded-full flex items-center justify-center transition-all duration-200 group-hover:bg-surface-container-highest" data-indicator="true"><span class="material-symbols-outlined text-[24px]">calendar_month</span></div><span class="font-label-md text-label-md tracking-tight leading-none" data-label="true">Mendatang</span></a><a class="group flex flex-col items-center justify-center gap-1 flex-1 py-1 text-on-surface-variant min-h-[44px]" data-path="semua-tugas" href="#"><div class="w-16 h-8 rounded-full flex items-center justify-center transition-all duration-200 group-hover:bg-surface-container-highest" data-indicator="true"><span class="material-symbols-outlined text-[24px]">checklist_rtl</span></div><span class="font-label-md text-label-md tracking-tight leading-none" data-label="true">Semua Tugas</span></a><a aria-current="page" class="group flex flex-col items-center justify-center gap-1 flex-1 py-1 text-on-surface-variant min-h-[44px] [&amp;_[data-indicator]]:bg-secondary-container [&amp;_[data-indicator]]:text-on-secondary-container [&amp;_[data-label]]:text-on-surface [&amp;_[data-label]]:font-bold" data-path="widget-and-info" href="#"><div class="w-16 h-8 rounded-full flex items-center justify-center transition-all duration-200 group-hover:bg-surface-container-highest" data-indicator="true"><span class="material-symbols-outlined text-[24px]">widgets</span></div><span class="font-label-md text-label-md tracking-tight leading-none" data-label="true">Widget &amp; Info</span></a></div><div class="h-4 flex items-center justify-center select-none"><div class="w-28 h-1 rounded-full bg-on-surface-variant/30"></div></div></nav></body></html>

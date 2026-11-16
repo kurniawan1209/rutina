@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Routine Track Ring (Monochrome outline) -->
+    <path
+        android:pathData="M 54, 30 A 24, 24 0 1, 1 53.99, 30"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFFFFF"
+        android:fillColor="#00000000" />
+
+    <!-- Tip Momentum Node -->
+    <path
+        android:pathData="M 71, 37 m -3.5, 0 a 3.5, 3.5 0 1, 1 7.0, 0 a 3.5, 3.5 0 1, 1 -7.0, 0"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Bold Central Checkmark -->
+    <path
+        android:pathData="M 41.5, 53.0 L 49.5, 61.0 L 66.5, 44.0"
+        android:strokeWidth="6.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+</vector>
